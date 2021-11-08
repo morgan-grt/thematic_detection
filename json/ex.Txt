@@ -1,0 +1,1 @@
+{"_id":{"$oid":"616eeef6c2bfbf25057d34d6"},"id":"10","time":"1634660086","subject":"[info-ic] AAP deuxième journée IM&IA 06/06/16 Montpellier","from":"Secretaire AFIA <secretaire@afia.asso.fr>","date":"Tue, 31 May 2016 08:58:31 +0200","body":""},
