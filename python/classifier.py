@@ -36,15 +36,23 @@ for mail in rjson.list_mail_en:
     occurrences = collections.Counter(list_label)
     list_label_by_mail.append((mail, occurrences))
 
-#print(list_label_by_mail)
+f_pretty = open("../result/pretty/"+"result_pretty_"+str(int(datetime.timestamp(datetime.now())))+".json", "w", encoding="utf-8")
+f = open("../result/inline/"+"result_"+str(int(datetime.timestamp(datetime.now())))+".json", "w", encoding="utf-8")
 
-f = open("../result/"+"result_"+str(int(datetime.timestamp(datetime.now())))+".txt", "w", encoding="utf-8")
-string = ""
+all_json = dict()
 
-for tupl in list_label_by_mail:
-    string += "\n@@@----- " + str(tupl[1]) + " -----@@@\n"
-    string += str(json.dumps(tupl[0], indent=2, ensure_ascii=False))
-    
-    string += "\n\n\n"
+for i in range(0, len(list_label_by_mail)):
+    part_json = dict()
+    part_json["result"] = list_label_by_mail[i][1]
+    part_json["mail"] = list_label_by_mail[i][0]
+    all_json[i] = part_json
 
+
+string_pretty = json.dumps(all_json, indent=2, ensure_ascii=False)
+f_pretty.write(string_pretty)
+f_pretty.close()
+
+string = json.dumps(all_json)
 f.write(string)
+f.close()
+
