@@ -1,7 +1,7 @@
 import json
 
 # Opening JSON file
-f = open("../json/block.json", "r", )
+f = open("../json/new_block.json", "r", )
 
 
 
@@ -18,7 +18,7 @@ list_mail_en = [] #1651
 #recuperation clés
 for i in data[0]:
     list_cles.append(i)
-print(list_cles)
+#print(list_cles)
 
 #tri/recuperation mail en/fr
 for i in range(0,len(data)):
