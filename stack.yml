@@ -1,0 +1,10 @@
+version: "3.6" 
+
+services:
+  app-api:
+    build:
+      dockerfile: dockerfiles/app_api.docker
+      context: ./
+    image: app_api_docker
+    ports:
+      - 8080:8080
