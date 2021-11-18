@@ -45,8 +45,9 @@ def work(filename):
     index = 0
     for mail in list_mail_en:
         list_label=[]
-        if (index > 10):
-            break
+        # to limit number of emails in the run
+        #if (index > 10):
+        #    break
         index +=1
         if index % 10 == 0:
             print(str(index) + "/" + str(len(list_mail_en)))

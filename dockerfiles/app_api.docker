@@ -1,13 +1,12 @@
-FROM node:17.1-bullseye
+FROM node:17.1-alpine3.14
 
-RUN apt-get update && apt-get install python -y
-RUN apt-get install python3-pip -y
+RUN apk add python3
 
 COPY /app_api /app_api
 
 WORKDIR /app_api
 
-ENV PORT=8080
+ENV PORT=9090
 
 RUN npm install
 
