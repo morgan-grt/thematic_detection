@@ -1,10 +1,14 @@
 import xml.etree.ElementTree as ET
-import os 
+import os
+import constants
+
+
+BASE_PATH = '/api'
 
 
 def read_skos():
 
-    tree = ET.parse(os.getcwd()+'/api/xml/skos.xml')
+    tree = ET.parse(os.getcwd()+constants.BASE_PATH_XML+'skos.xml')
 
     label = ET.Element('prefLabel')
     root = tree.getroot()

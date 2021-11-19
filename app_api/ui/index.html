@@ -26,6 +26,9 @@
                         <form action="fileupload" method="post" enctype="multipart/form-data">
                             <label for="input-form" id="input-file" class="label-file"><span>Select a file...</span></label>
                             <input id="input-form" type="file" name="filetoupload">
+                            <input class="number-input" type="number" name="filetoupload">
+                            <input class="number-input" type="number" value="-1" name="user_max_cpu">
+                            <input class="number-input" type="number" value="-1" name="user_max_size">
                             <button type="submit" id="run-button"><span>Send 🚀</span></button>
                         </form>
                         <span id="upload-result"></span>

@@ -1,6 +1,7 @@
 FROM node:17.1-alpine3.14
 
 RUN apk add python3
+RUN apk add --update --no-cache py3-numpy
 
 COPY /app_api /app_api
 

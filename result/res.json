@@ -1,1 +1,1162 @@
-{"0": {"result": {"Logic": 1, "Performance": 1}, "mail": {"_id": {"$oid": "616f04bd7aa7db5412d76841"}, "listName": "info-ic", "mailPopId": "2", "time": "1634660076", "body": "<br />=======================================================================<br /><br />[Apologies if you receives multiple copies of this CFP] <br />*************************************************************************************** <br /><br />Fuzzy Sets & Systems (FSS) <br />(http://www.journals.elsevier.com/fuzzy-sets-and-systems/)<br />   Call for Papers for a Special Issue on Fuzzy Approaches for Handling <br />Big Data <br />********************************************************************************<br /><br /><br />Guest Editors:<br />Prof. Sadok BEN YAHIA, Faculty of Sciences of Tunis, Tunisia<br />Prof. Anne LAURENT, University of Montpellier, France<br />Prof. Gabriella PASI, University of Milano, Italy<br /><br /><br />Scope and Topics:<br /><br />Big data is often referred to as being related to the paradigms of the <br />4V (Volume, Variety, Velocity, Veracity). Huge data sets require ad hoc <br />computational approaches to be managed and analyzed. Besides the <br />efficiency issue related to their dimensions, there is the important and <br />complex issue of mining useful information from data.<br /><br />Several are the scientific challenges associated with big data, ranging <br />from data capture, storage, sharing, modeling, analysis, and <br />visualization. Among the complex aspects to be addressed there is the <br />integration across heterogeneous, interdependent complex data resources <br />for real-time analytics and decision making.<br /><br />This special issue aims to publish selected research articles presenting <br />fuzzy logic based techniques in the emerging field of Big Data. More <br />specifically, it seeks for contributions standing at the cross-road of <br />theory and applications of fuzzy techniques in Big Data, including:<br /><br />* Scalability and performance of fuzzy algorithms, data structures;<br />* Novel fuzzy techniques to manage big data;<br />* Applications of fuzzy techniques to large datasets gathered in <br />business intelligence, finance, healthcare, bioinformatics, smart sensor <br />networks, cyber security, etc;<br />* Collaborative approaches where human and machine expertise are used in <br />a complementary manner.<br /><br />Submission procedure<br /><br />Please submit your article using the online manuscript submission <br />service at The submission website for this journal is located at: <br />http://ees.elsevier.com/fss/default.asp. It is important that <br />prospective authors select \u201cSI:Fuzzy approaches 4BigData\u201d as far as they <br />reach the \u201cArticle Type\u201d step in the submission process.<br /><br /><br />Important Dates<br /><br />Submission of manuscripts: June 30th, 2016<br />Review notification to authors: September 15th , 2016<br />Submission of revised papers: October 30th, 2016<br />Notification of final review results: December 15th, 2016<br /><br /><br /><br /><br /><br /><br /><br />", "subject": "4th CFP: : Special Issue on Fuzzy Approaches for Handling Big Data (Fuzzy Sets & Systems (FSS))", "from": "Sadok Ben Yahia <sadok.benyahia@fst.rnu.tn>", "date": "Sat, 28 May 2016 16:47:54 +0200", "fromName": "Sadok Ben Yahia", "fromMail": "sadok.benyahia@fst.rnu.tn", "language": "en", "isCFP": "1", "blocks": [{"title": "none", "lines": [{"type": "paragraph", "value": "[Apologies if you receives multiple copies of this CFP] *************************************************************************************** "}, {"type": "paragraph", "value": "Fuzzy Sets & Systems (FSS) "}, {"type": "url", "value": "www.journals.elsevier.com/fuzzy-sets-and-systems/)"}, {"type": "paragraph", "value": "   Call for Papers for a Special Issue on Fuzzy Approaches for Handling "}, {"type": "title", "value": "Big Data "}, {"type": "separator", "value": {"content": "********************************************************************************"}}]}, {"title": "Guest Editors:", "lines": [{"type": "title", "value": "Guest Editors:"}, {"type": "member", "value": {"firstName": "Prof", "lastName": ". Sadok BEN YAHIA", "affiliationName": "Faculty of Sciences of Tunis", "country": "Tunisia"}}, {"type": "member", "value": {"firstName": "Prof", "lastName": ". Anne LAURENT", "affiliationType": "University", "affiliationName": "Montpellier", "country": "France"}}, {"type": "member", "value": {"firstName": "Prof", "lastName": ". Gabriella PASI", "affiliationType": "University", "affiliationName": "Milano", "country": "Italy"}}]}, {"title": "Scope and Topics:", "lines": [{"type": "title", "value": "Scope and Topics:"}, {"type": "paragraph", "value": "Big data is often referred to as being related to the paradigms of the 4V (Volume, Variety, Velocity, Veracity). Huge data sets require ad hoc computational approaches to be managed and analyzed. Besides the efficiency issue related to their dimensions, there is the important and complex issue of mining useful information from data."}, {"type": "paragraph", "value": "Several are the scientific challenges associated with big data, ranging from data capture, storage, sharing, modeling, analysis, and visualization. Among the complex aspects to be addressed there is the integration across heterogeneous, interdependent complex data resources for real-time analytics and decision making."}, {"type": "paragraph", "value": "This special issue aims to publish selected research articles presenting fuzzy logic based techniques in the emerging field of Big Data. More specifically, it seeks for contributions standing at the cross-road of theory and applications of fuzzy techniques in Big Data, including:"}, {"type": "enum", "value": "Scalability and performance of fuzzy algorithms , data structures ;"}, {"type": "enum", "value": "Novel fuzzy techniques to manage big data ;"}, {"type": "enum", "value": "Applications of fuzzy techniques to large datasets gathered in"}, {"type": "paragraph", "value": "business intelligence, finance, healthcare, bioinformatics, smart sensor networks, cyber security, etc;"}, {"type": "enum", "value": "Collaborative approaches where human and machine expertise are used in"}, {"type": "paragraph", "value": "a complementary manner."}]}, {"title": "Submission procedure", "lines": [{"type": "title", "value": "Submission procedure"}, {"type": "paragraph", "value": "Please submit your article using the online manuscript submission service at The submission website for this journal is located at: "}, {"type": "url", "value": "ees.elsevier.com/fss/default.asp.Itisimportantthat"}, {"type": "paragraph", "value": "prospective authors select \u201cSI:Fuzzy approaches 4BigData\u201d as far as they reach the \u201cArticle Type\u201d step in the submission process."}]}, {"title": "Important Dates", "lines": [{"type": "title", "value": "Important Dates"}, {"type": "paragraph", "value": "Submission of manuscripts: June 30th, 2016Review notification to authors: September 15th , 2016Submission of revised papers: October 30th, 2016Notification of final review results: December 15th, 2016"}]}]}}, "1": {"result": {"Funding": 1}, "mail": {"_id": {"$oid": "616f04bd7aa7dbee2fd76843"}, "listName": "info-ic", "mailPopId": "7", "time": "1634660082", "body": "*** English version below ***<br /><br />*** Sorry for cross posting ***<br /><br />-----------------------------------------------------------<br />Th\u00e8se CIFRE - ORANGE, Universit\u00e9 de Caen Normandie, France<br />-----------------------------------------------------------<br /><br />Le Laboratoire GREYC/CNRS de l'Universit\u00e9 de Caen Normandie et ORANGE<br />recherchent un \u00e9tudiant de doctorat dans le cadre d'un financement CIFRE.<br /><br />L'\u00e9tudiant sera amener \u00e0 proposer et d\u00e9velopper des solutions<br />innovatrices dans le cadre de l'analyse des contenus et des donn\u00e9es<br />d\u2019usage des outils de communication et de collaboration.<br /><br />Veuillez trouver un descriptif complet en suivant le lien suivant:<br />https://orange.jobs/jobs/offer.do?joid=53710&lang=FR<br /><br />La th\u00e8se se d\u00e9roulera majoritairement sur le site d'ORANGE \u00e0 Caen.<br /><br />Le candidat devra \u00eatre titulaire d'un dipl\u00f4me de niveau BAC+5 en<br />Informatique (ou \u00e9quivalent) et d\u00e9montrer des comp\u00e9tences dans les<br />domaines suivants (ou similaires):<br /><br />- Apprentissage Automatique,<br />- Gestion des Connaissances,<br />- Repr\u00e9sentation et Raisonnement Spatio-temporels,<br />- Traitement Automatique des Langues.<br /><br />Une forte comp\u00e9tence en programmation et la ma\u00eetrise de l'anglais sont<br />des crit\u00e8res pr\u00e9f\u00e9rentiels.<br /><br />Les candidats int\u00e9ress\u00e9s doivent constituer un dossier comprenant:<br /><br />- CV d\u00e9taill\u00e9,<br />- Relev\u00e9s de notes,<br />- Lettre(s) de recommandation.<br /><br />Pour toute information compl\u00e9mentaire, veuillez contacter Maroua Bouzid<br />(maroua.bouzid-mouaddib@unicaen.fr).<br /><br />Les candidatures doivent \u00eatre envoy\u00e9es avant le 7 ao\u00fbt 2016 (24h GMT+1) \u00e0:<br /><br />[1] Maroua Bouzid (maroua.bouzid-mouaddib@unicaen.fr) et Ga\u00ebl Dias<br />(gael.dias@unicaen.fr) en format pdf, ou directement \u00e0<br /><br />[2] ORANGE: https://orange.jobs/jobs/offer.do?joid=53710&lang=FR<br /><br /><br />---------------------------------------------------------------------<br />*** English Version<br />---------------------------------------------------------------------<br /><br />The  GREYC/CNRS Laboratory of the Normandy University and ORANGE are<br />looking for a PhD student within the CIFRE funding framework.<br /><br />The student will have to propose and develop innovative solutions in the<br />context of content analysis and use of data from communication and<br />collaboration tools.<br /><br />A detailed description of the proposed work is available at the<br />following url: https://orange.jobs/jobs/offer.do?joid=53710&lang=FR<br /><br />The thesis will mainly take place at ORANGE, Caen, France.<br /><br />The successful candidate will hold a Msc. Degree in Computer Science<br />(or equivalent) and demonstrate outstanding skills in the following<br />areas (or similar):<br /><br />- Machine Learning,<br />- Knowledge Engineering,<br />- Spatio-Temporal Representation and Reasoning,<br />- Natural Language Processing.<br /><br />Strong programming skills and English proficiency are preferential<br />criteria.<br /><br />Interested applicants must prepare:<br /><br />- Detailed Resume,<br />- List of marks,<br />- Letter(s) of recommendation.<br /><br />For further information, please contact Maroua Bouzid<br />(maroua.bouzid-mouaddib@unicaen.fr).<br /><br />Applications should be sent before August 7, 2016 (24h GMT + 1) either to:<br /><br />[1] Maroua Bouzid (maroua.bouzid-mouaddib@unicaen.fr) and Ga\u00ebl Dias<br />(gael.dias@unicaen.fr) in pdf format, or directly at<br /><br />[2] ORANGE website: https://orange.jobs/jobs/offer.do?joid=53710&lang=FR<br /><br />-- <br />-------------------------------------------------------------<br />Ga\u00ebl Harry Dias              | Full Professor (PhD, HDR)<br />GREYC - HULTECH - UMR 6072   | [http://dias.users.greyc.fr]<br />University of Caen Normandie | [gael.dias@unicaen.fr]<br />Campus C\u00f4te de Nacre         | [Tel: +33 (0)2 31 56 74 87]<br />F-14032 Caen Cedex FRANCE    | [Fax: +33 (0)2 31 56 73 30]<br />------------------------------------------------------------<br /><br />", "subject": "These CIFRE ORANGE/UCBN, PhD internship ORANGE/UCBN, France", "from": "Nathalie Aussenac <nathalie.aussenac-gilles@irit.fr>", "date": "Mon, 30 May 2016 22:26:53 +0200", "fromName": "Nathalie Aussenac", "fromMail": "nathalie.aussenac-gilles@irit.fr", "language": "en", "isCFP": "", "blocks": [{"title": "none", "lines": [{"type": "header", "value": "English version below"}, {"type": "header", "value": "Sorry for cross posting"}, {"type": "member", "value": {"firstName": "Th\u00e8se", "lastName": "CIFRE - ORANGE", "affiliationName": "Universit\u00e9 de Caen Normandie", "country": "France"}}, {"type": "paragraph", "value": "Le Laboratoire GREYC/CNRS de l'Universit\u00e9 de Caen Normandie et ORANGErecherchent un \u00e9tudiant de doctorat dans le cadre d'un financement CIFRE."}, {"type": "paragraph", "value": "L'\u00e9tudiant sera amener \u00e0 proposer et d\u00e9velopper des solutionsinnovatrices dans le cadre de l'analyse des contenus et des donn\u00e9esd\u2019usage des outils de communication et de collaboration."}, {"type": "paragraph", "value": "Veuillez trouver un descriptif complet en suivant le lien suivant:"}, {"type": "url", "value": "orange.jobs/jobs/offer.do?joid=53710&lang=FR"}, {"type": "paragraph", "value": "La th\u00e8se se d\u00e9roulera majoritairement sur le site d'ORANGE \u00e0 Caen."}, {"type": "paragraph", "value": "Le candidat devra \u00eatre titulaire d'un dipl\u00f4me de niveau BAC+5 enInformatique (ou \u00e9quivalent) et d\u00e9montrer des comp\u00e9tences dans lesdomaines suivants (ou similaires):"}, {"type": "enum", "value": "Apprentissage Automatique ,"}, {"type": "enum", "value": "Gestion des Connaissances ,"}, {"type": "enum", "value": "Repr\u00e9sentation et Raisonnement Spatio - temporels ,"}, {"type": "enum", "value": "Traitement Automatique des Langues ."}, {"type": "paragraph", "value": "Une forte comp\u00e9tence en programmation et la ma\u00eetrise de l'anglais sontdes crit\u00e8res pr\u00e9f\u00e9rentiels."}, {"type": "paragraph", "value": "Les candidats int\u00e9ress\u00e9s doivent constituer un dossier comprenant:"}, {"type": "enum", "value": "CV d\u00e9taill\u00e9 ,"}, {"type": "enum", "value": "Relev\u00e9s de notes ,"}, {"type": "enum", "value": "Lettre ( s ) de recommandation ."}, {"type": "paragraph", "value": "Pour toute information compl\u00e9mentaire, veuillez contacter Maroua Bouzid(maroua.bouzid-mouaddib@unicaen.fr)."}, {"type": "paragraph", "value": "Les candidatures doivent \u00eatre envoy\u00e9es avant le 7 ao\u00fbt 2016 (24h GMT+1) \u00e0:"}, {"type": "paragraph", "value": "[1] Maroua Bouzid (maroua.bouzid-mouaddib@unicaen.fr) et Ga\u00ebl Dias(gael.dias@unicaen.fr) en format pdf, ou directement \u00e0"}, {"type": "url", "value": "orange.jobs/jobs/offer.do?joid=53710&lang=FR"}, {"type": "enum", "value": "English Version"}, {"type": "paragraph", "value": "The  GREYC/CNRS Laboratory of the Normandy University and ORANGE arelooking for a PhD student within the CIFRE funding framework."}, {"type": "paragraph", "value": "The student will have to propose and develop innovative solutions in thecontext of content analysis and use of data from communication andcollaboration tools."}, {"type": "paragraph", "value": "A detailed description of the proposed work is available at the"}, {"type": "url", "value": "orange.jobs/jobs/offer.do?joid=53710&lang=FR"}, {"type": "member", "value": {"firstName": "The", "lastName": "thesis will mainly take place at ORANGE", "affiliationName": "Caen", "country": "France"}}, {"type": "paragraph", "value": "The successful candidate will hold a Msc. Degree in Computer Science(or equivalent) and demonstrate outstanding skills in the followingareas (or similar):"}, {"type": "enum", "value": "Machine Learning ,"}, {"type": "enum", "value": "Knowledge Engineering ,"}, {"type": "enum", "value": "Spatio - Temporal Representation and Reasoning ,"}, {"type": "enum", "value": "Natural Language Processing ."}, {"type": "paragraph", "value": "Strong programming skills and English proficiency are preferentialcriteria."}]}, {"title": "Interested applicants must prepare:", "lines": [{"type": "title", "value": "Interested applicants must prepare:"}, {"type": "enum", "value": "Detailed Resume ,"}, {"type": "enum", "value": "List of marks ,"}, {"type": "enum", "value": "Letter ( s ) of recommendation ."}, {"type": "paragraph", "value": "For further information, please contact Maroua Bouzid(maroua.bouzid-mouaddib@unicaen.fr)."}, {"type": "paragraph", "value": "Applications should be sent before August 7, 2016 (24h GMT + 1) either to:"}, {"type": "paragraph", "value": "[1] Maroua Bouzid (maroua.bouzid-mouaddib@unicaen.fr) and Ga\u00ebl Dias(gael.dias@unicaen.fr) in pdf format, or directly at"}, {"type": "url", "value": "orange.jobs/jobs/offer.do?joid=53710&lang=FR"}, {"type": "paragraph", "value": "-- "}, {"type": "paragraph", "value": "Ga\u00ebl Harry Dias              | Full Professor (PhD, HDR)"}, {"type": "url", "value": "dias.users.greyc.fr]"}, {"type": "paragraph", "value": "University of Caen Normandie | [gael.dias@unicaen.fr]Campus C\u00f4te de Nacre         | [Tel: +33 (0)2 31 56 74 87]F-14032 Caen Cedex FRANCE    | [Fax: +33 (0)2 31 56 73 30]"}, {"type": "separator", "value": {"content": "------------------------------------------------------------"}}]}]}}, "2": {"result": {"Networks": 1, "Design": 1, "Performance": 1}, "mail": {"_id": {"$oid": "616f04bd7aa7db52e6d76845"}, "listName": "info-ic", "mailPopId": "15", "time": "1634660092", "body": "We appreciate your help if you forward this CFPs to your mailing lists.<br /><br />We apologize in advance if you receive multiple copies of this CFP<br /><br />*Submission Extended Deadline: June 20, 2016*<br /><br />*THE INTERNATIONAL CONFERENCE ON WIRELESS NETWORKS AND MOBILE<br />COMMUNICATIONS*  *(WINCOM 2016)*<br /><br />*Theme of the 2016 edition*<br /><br />*\u00ab Green Communications and Networking \u00bb*<br /><br /><br /> *October 26-29, 2016, Fez, Morocco*<br />www.wincom-conf.org<br /><br /><br />*Indexed: Scopus, ISI and DBLP*<br /><br /><br /><br />*Technical Support : IEEE Communications Society*<br /><br /><br /><br />*     [image: Images int\u00e9gr\u00e9es 1]                              [image:<br />Images int\u00e9gr\u00e9es 1]*<br /><br /><br />*Important dates:*<br /><br />*Ssubmission - Extended Deadline: June 20,2016*<br />Notification of acceptance: July 25, 2016<br />Camera ready:  August 25, 2016<br />Registration due: September 15, 2016<br />Conference date: October 26-29, 2016<br /><br /><br />         The international conference on wireless networks and mobile<br />communications (WINCOM\u201916) will be held in the Imperial city and Scientific<br />capital of  Morocco, Fez, on 26-29 October 2016. WINCOM\u201916 aims at<br />examining the various challenges in the areas of wireless networks & mobile<br />communications. The conference will provide a forum for exchanging ideas,<br />discussing solutions, and sharing experiences among researchers and<br />professionals from both academia and industry interested in wireless<br />networks and mobile communications.  Papers describing original research<br />work on both theoretical and practical aspects of wireless networks and<br />mobile communications are highly solicited.<br /><br />         WINCOM 2016 covers all types of wireless communications and<br />networks: cellular networks, metropolitan networks, local area networks, ad<br />hoc networks, sensor networks, delay-tolerant networks, mesh networks,<br />content-driven networks, vehicular networks, or any convex combination of<br />the above. Contributions to the conference should provide a significant<br />improvement, compared to the state-of-the-art, to the design, analysis, and<br />operations of wireless networks, either by offering new insights on<br />theoretical aspects or by proposing novel practical optimization methods<br />and tools.<br /><br />*Paper Submission*<br /><br />         Papers should contain original material which is not currently<br />under review in any other conference or journal and has not been previously<br />published. All submissions should be written in English with a<br />maximum paper length of six (devil) printed pages standard IEEE conference<br />two-column format (minimum 10-point font) including figures, without<br />incurring additional page charges (maximum 2 additional pages, with over<br />length page fee).<br /><br />         All submitted papers will go through a peer review process.<br />Questions about paper submissions or the conference program can be<br />addressed to any of the Program Chairs. Standard IEEE Transactions<br />templates for Microsoft Word or LaTeX formats can be found at:<br /><br />http://www.ieee.org/conferences_events/conferences/publishing/templates.html<br /><br /><br />         Only PDF files will be accepted for the review process and all<br />submissions must be done through EDAS online submission system:<br />http://edas.info/N22368. You are invited to submit papers in all areas of<br />wireless communications networks.<br /><br />All accepted and registered papers at WINCOM 2016 will be submitted to<br /> IEEE for potential inclusion to the IEEE Xplore. They will also be<br />submitted to SCOPUS, ISI, DBLP and other leading indexing<br />services. Papers of particular merit will be recommended for a possible<br />special issue in an international journal. There will also be best papers<br />awards.<br /><br />*Topics of interest include, but are not limited to:*<br /><br />v  Cooperative/non-cooperative communications<br /><br />v  Game theory applied to networking problems<br /><br />v  Learning theory to solve networking problems<br /><br />v  Modeling and performance evaluation<br /><br />v  Energy efficient communications and green networking<br /><br />v  Interference mitigation<br /><br />v  Physical layer design and Signal processing<br /><br />v  Channel capacity estimation, modeling and equalization<br /><br />v  Radio resource management, allocation and scheduling<br /><br />v  Congestion, load and admission control<br /><br />v  Smart antennas: MIMO, Massive MIMO and beamforming<br /><br />v  Reconfigurability, adaptivity in MAC and PHY layers<br /><br />v  Adaptive and cognitive MAC<br /><br />v  Cross-layer design involving MAC layer<br /><br />v  Routing and QoS provisioning<br /><br />v  Multihop communications: Ad hoc, WSN, DTN, VANET<br /><br />v  Mobility Issues and continuity of services<br /><br />v  Multi-homing in 4G, B4G and 5G Networks<br /><br />v  Beyond 4G and 5G communications<br /><br />v  M2M and MTC communications<br /><br />v  Cognitive radio networks<br /><br />v  Implementation, testbeds and prototypes<br /><br />v  Security issues and privacy<br /><br />v  Body area networks<br /><br />v  Internet of things<br /><br />v  Future Internet and Next-Generation Networking<br /><br />v  Mobile cloud computing<br /><br />v  Emerging Internet applications<br /><br />v  Context and location-awareness in pervasive systems<br /><br />v  Emerging wireless and mobile applications<br /><br />v  User interfaces, user-machine interactions<br /><br />v  P2P services for multimedia<br /><br />v  Secure network and service access<br /><br />v  Self-adaptation on the service layer<br /><br />v  Service discovery and portability<br /><br />v  Service oriented architectures<br /><br />*ORGANIZING COMMITTEE*<br /><br /><br /><br />*Honorary General Chairs*<br /><br />Omar Assobhei, President of Sidi Mohammed Ben Abdallah University, Fez,<br />Morocco.<br /><br />Mohammed Benlemlih, Dean of Faculty of Science Dhar El Mahraz, Fez, Morocco.<br /><br />Mustapha Ijaali, Dean of  Faculty of  Science & Technology, Fez, Morocco.<br /><br />Mustapha Lkhider , Dean of Faculty of Science & Technology,  Mohammedia,<br />Morocco<br /><br /> *General Chair*<br /><br />Khaled B. Letaief, Chair Professor, ECE Departement, HKUST, Hong Kong.<br /><br /> *General Co-Chairs*<br /><br />Jalel Ben-Othman, University of Paris 13, France.<br /><br />Azzedine Boukerche, University of Ottawa, Canada.<br /><br />*Local Chair*<br /><br />Mohamed El Kamili, FSDM, Sidi Mohammed Ben Abdallah University,  Fez,<br />Morocco.<br /><br /><br />*Local Co-Chairs*<br /><br />Ismail Berrada, FSDM, Sidi Mohammed Ben Abdallah University,  Fez, Morocco.<br /><br />Abdelmajid Badri , FST Mohammadia, Hassan II University,  Casablanca,<br />Morocco.<br /><br /><br />*Program Committee Chairs*<br /><br />RachidEl-Azouzi, LIA, University of Avignon, France.<br /><br />Mounir Ghogho, Leeds University England and UIR, Morocco.<br /><br />Essaid Sabir, ENSEM, Hassan II University ,  Casablanca, Morocco.<br /><br />*Publication Chairs*<br /><br />Hicham Ghennioui, FST, Sidi Mohamed Ben Abdellah University, Fez, Morocco.<br /><br />Lynda Mokdad, University of Paris-Est, Creteil, France.<br /><br />*Publicity  Chairs *<br /><br />Hyunbum Kim, Ph.D. University of North Carolina at Wilmington.<br /><br />Luca Foschini, DEIS-LIA, University of Bologna, Italy.<br /><br />Shuai Han, Harbin Institute of Technology, China.<br /><br />Ahmed Drissi El Maliani, FSDM, Sidi Mohamed Ben Abdellah University, Fez,<br />Morocco.<br /><br />*Keynote and Panels chairs*<br /><br />Abdellatif Kobbane, ENSIAS, Mohammed V University , Rabat, Morocco.<br /><br />Mohammed Essaaidi, Director of ENSIAS, Rabat, Morocco.<br /><br />*Sponsorship Chairs*<br /><br />Amal Tmiri, Chouaib Doukkali University, El-Jadida,  Morocco<br /><br />Khalil Ibrahimi, IbnTofail University,  Kenitra, Morocco.<br /><br />*Special sessions and Tutorials  Chairs*<br /><br />Soumaya Cherkaoui, University of Sherbrooke, Canada.<br /><br />Mohamed Et-Tolba, INPT, Rabat, Morocco<br /><br />*Students Committee*<br /><br />Afaf Bouhoute, FSDM, Sidi Mohamed Ben Abdellah University, Fez, Morocco.<br /><br />Ahmed El Ouadrhiri, FSDM, Sidi Mohamed Ben Abdellah University, Fez,<br />Morocco.<br /><br />Rachid Oucheikh, FSDM, Sidi Mohamed Ben Abdellah University, Fez, Morocco.<br /><br />Imane Rahmouni, FSDM, Sidi Mohamed Ben Abdellah University, Fez, Morocco.<br /><br />Imane Tamimi, FSDM, Sidi Mohamed Ben Abdellah University, Fez, Morocco.<br /><br />Omar AitOualhaj,, ENSIAS, Mohammed V University of Rabat, Morocco.<br /><br />Zakaria Ye, University of Avignon, France.<br /><br /><br /><br />*Local Organizing Committee*<br /><br />Mohammed El Hammoumi, Head of  TI Laboratory and Coordinator of the Pole<br />TICSM , FST, USMBA Fez Morocco<br /><br />Mohammed EL Mohajir, FSDM, USMBA Fez,  IEEE Morocco section Chair<br /><br />Rais Noureddine, Head of LIMS Laboratory, FSDM, USMBA Fez, Morocco<br /><br />Abdelmoujib Benkirane, Head of LAMA Laboratory, FSDM, USMBA Fez, Morocco<br /><br />Mohamed Karim, Head of LISTA Laboratory, FSDM, USMBA Fez, Morocco<br /><br />Khalid ZENKOUAR, Member of  LSIA Laboratory, FST, USMBA Fez, Morocco<br /><br />M'Hammed Lahbabi, Head of LSSC Laboratory, FST, USMBA Fez, Morocco<br /><br />Moulay Lahcen Hasnaoui, FSDM, USMBA Fez, Morocco<br /><br />Ahmed Zinedine, FSDM, USMBA Fez, Morocco<br /><br /><br /><br />Follow us and help us to talk about WINCOM 2016:<br /><br />https://twitter.com/_WINCOM_<br /><br />https://web.facebook.com/wincomconf.org?notif_t=page_invite_accepted&_rdr<br /><br />Sincerely,<br /><br />WINCOM 2016 Chairs.<br />", "subject": "WINCOM' 2016 Deadline Extended to 20 June", "from": "Afaf BOUHOUTE <afaf.bouhoute@gmail.com>", "date": "Thu, 2 Jun 2016 19:05:41 +0200", "fromName": "Afaf BOUHOUTE", "fromMail": "afaf.bouhoute@gmail.com", "language": "en", "isCFP": "1", "blocks": [{"title": "none", "lines": [{"type": "paragraph", "value": "We appreciate your help if you forward this CFPs to your mailing lists."}, {"type": "paragraph", "value": "We apologize in advance if you receive multiple copies of this CFP"}, {"type": "header", "value": "Submission Extended Deadline : 6 20 , 2016"}, {"type": "enum", "value": "THE INTERNATIONAL CONFERENCE ON WIRELESS NETWORKS AND MOBILE"}, {"type": "header", "value": {"header": "( WINCOM 2016 )"}}, {"type": "header", "value": "Theme of the 2016 edition"}, {"type": "header", "value": "\u00ab Green Communications and Networking \u00bb"}, {"type": "member", "value": {"firstName": "*", "lastName": "10 26 - 29", "affiliationName": "2016", "country": "Morocco"}}, {"type": "paragraph", "value": "www.wincom-conf.org"}, {"type": "header", "value": "Indexed : Scopus , ISI and DBLP"}, {"type": "header", "value": "Technical Support : IEEE Communications Society"}, {"type": "enum", "value": "[ image : Images int\u00e9gr\u00e9es 1 ] [ image :"}, {"type": "title", "value": "Images int\u00e9gr\u00e9es 1]*"}, {"type": "header", "value": "Important dates :"}, {"type": "header", "value": "Ssubmission - Extended Deadline : 6 20 , 2016"}, {"type": "paragraph", "value": "Notification of acceptance: July 25, 2016Camera ready:  August 25, 2016"}, {"type": "title", "value": "Registration due: September 15, 2016"}, {"type": "dateInterval", "value": {"month": "10", "dayBegin": "26", "dayEnd": "29", "year": "2016"}}, {"type": "paragraph", "value": "         The international conference on wireless networks and mobilecommunications (WINCOM\u201916) will be held in the Imperial city and Scientificcapital of  Morocco, Fez, on 26-29 October 2016. WINCOM\u201916 aims atexamining the various challenges in the areas of wireless networks & mobilecommunications. The conference will provide a forum for exchanging ideas,discussing solutions, and sharing experiences among researchers andprofessionals from both academia and industry interested in wirelessnetworks and mobile communications.  Papers describing original researchwork on both theoretical and practical aspects of wireless networks andmobile communications are highly solicited."}, {"type": "paragraph", "value": "         WINCOM 2016 covers all types of wireless communications andnetworks: cellular networks, metropolitan networks, local area networks, adhoc networks, sensor networks, delay-tolerant networks, mesh networks,content-driven networks, vehicular networks, or any convex combination ofthe above. Contributions to the conference should provide a significantimprovement, compared to the state-of-the-art, to the design, analysis, andoperations of wireless networks, either by offering new insights ontheoretical aspects or by proposing novel practical optimization methodsand tools."}, {"type": "header", "value": "Paper Submission"}, {"type": "paragraph", "value": "         Papers should contain original material which is not currentlyunder review in any other conference or journal and has not been previouslypublished. All submissions should be written in English with amaximum paper length of six (devil) printed pages standard IEEE conferencetwo-column format (minimum 10-point font) including figures, withoutincurring additional page charges (maximum 2 additional pages, with overlength page fee)."}, {"type": "paragraph", "value": "         All submitted papers will go through a peer review process.Questions about paper submissions or the conference program can beaddressed to any of the Program Chairs. Standard IEEE Transactionstemplates for Microsoft Word or LaTeX formats can be found at:"}, {"type": "url", "value": "www.ieee.org/conferences_events/conferences/publishing/templates.html"}, {"type": "paragraph", "value": "         Only PDF files will be accepted for the review process and allsubmissions must be done through EDAS online submission system:"}, {"type": "url", "value": "edas.info/N22368.Youareinvitedtosubmitpapersinallareasof"}, {"type": "paragraph", "value": "wireless communications networks."}, {"type": "paragraph", "value": "All accepted and registered papers at WINCOM 2016 will be submitted to IEEE for potential inclusion to the IEEE Xplore. They will also besubmitted to SCOPUS, ISI, DBLP and other leading indexingservices. Papers of particular merit will be recommended for a possiblespecial issue in an international journal. There will also be best papersawards."}, {"type": "header", "value": "Topics of interest include , but are not limited to :"}, {"type": "paragraph", "value": "v  Cooperative/non-cooperative communications"}, {"type": "paragraph", "value": "v  Game theory applied to networking problems"}, {"type": "paragraph", "value": "v  Learning theory to solve networking problems"}, {"type": "paragraph", "value": "v  Modeling and performance evaluation"}, {"type": "paragraph", "value": "v  Energy efficient communications and green networking"}, {"type": "paragraph", "value": "v  Interference mitigation"}, {"type": "paragraph", "value": "v  Physical layer design and Signal processing"}, {"type": "paragraph", "value": "v  Channel capacity estimation, modeling and equalization"}, {"type": "paragraph", "value": "v  Radio resource management, allocation and scheduling"}, {"type": "paragraph", "value": "v  Congestion, load and admission control"}, {"type": "paragraph", "value": "v  Smart antennas: MIMO, Massive MIMO and beamforming"}, {"type": "paragraph", "value": "v  Reconfigurability, adaptivity in MAC and PHY layers"}, {"type": "paragraph", "value": "v  Adaptive and cognitive MAC"}, {"type": "paragraph", "value": "v  Cross-layer design involving MAC layer"}, {"type": "paragraph", "value": "v  Routing and QoS provisioning"}, {"type": "paragraph", "value": "v  Multihop communications: Ad hoc, WSN, DTN, VANET"}, {"type": "paragraph", "value": "v  Mobility Issues and continuity of services"}, {"type": "paragraph", "value": "v  Multi-homing in 4G, B4G and 5G Networks"}, {"type": "paragraph", "value": "v  Beyond 4G and 5G communications"}, {"type": "paragraph", "value": "v  M2M and MTC communications"}, {"type": "paragraph", "value": "v  Cognitive radio networks"}, {"type": "paragraph", "value": "v  Implementation, testbeds and prototypes"}, {"type": "paragraph", "value": "v  Security issues and privacy"}, {"type": "paragraph", "value": "v  Body area networks"}, {"type": "paragraph", "value": "v  Internet of things"}, {"type": "paragraph", "value": "v  Future Internet and Next-Generation Networking"}, {"type": "paragraph", "value": "v  Mobile cloud computing"}, {"type": "paragraph", "value": "v  Emerging Internet applications"}, {"type": "paragraph", "value": "v  Context and location-awareness in pervasive systems"}, {"type": "paragraph", "value": "v  Emerging wireless and mobile applications"}, {"type": "paragraph", "value": "v  User interfaces, user-machine interactions"}, {"type": "paragraph", "value": "v  P2P services for multimedia"}, {"type": "paragraph", "value": "v  Secure network and service access"}, {"type": "paragraph", "value": "v  Self-adaptation on the service layer"}, {"type": "paragraph", "value": "v  Service discovery and portability"}, {"type": "paragraph", "value": "v  Service oriented architectures"}, {"type": "header", "value": "ORGANIZING COMMITTEE"}, {"type": "header", "value": "Honorary General Chairs"}, {"type": "paragraph", "value": "Omar Assobhei, President of Sidi Mohammed Ben Abdallah University, Fez,"}, {"type": "title", "value": "Morocco."}, {"type": "member", "value": {"firstName": "Mohammed", "lastName": "Benlemlih", "affiliationName": "Dean of Faculty of Science Dhar El Mahraz", "country": "Morocco"}}, {"type": "member", "value": {"firstName": "Mustapha", "lastName": "Ijaali", "affiliationName": "Dean of Faculty of Science & Technology", "country": "Morocco"}}, {"type": "paragraph", "value": "Mustapha Lkhider , Dean of Faculty of Science & Technology,  Mohammedia,"}, {"type": "title", "value": "Morocco"}, {"type": "header", "value": "General Chair"}, {"type": "paragraph", "value": "Khaled B. Letaief, Chair Professor, ECE Departement, HKUST, Hong Kong."}, {"type": "header", "value": "General Co - Chairs"}, {"type": "member", "value": {"firstName": "Jalel", "lastName": "Ben - Othman", "affiliationType": "University", "affiliationName": "Paris 13", "country": "France"}}, {"type": "member", "value": {"firstName": "Azzedine", "lastName": "Boukerche", "affiliationType": "University", "affiliationName": "Ottawa", "country": "Canada"}}, {"type": "header", "value": "Local Chair"}, {"type": "paragraph", "value": "Mohamed El Kamili, FSDM, Sidi Mohammed Ben Abdallah University,  Fez,"}, {"type": "title", "value": "Morocco."}, {"type": "header", "value": "Local Co - Chairs"}, {"type": "member", "value": {"firstName": "Ismail", "lastName": "Berrada", "affiliationName": "FSDM , Sidi Mohammed Ben Abdallah", "affiliationType": "", "country": "Morocco"}}, {"type": "paragraph", "value": "Abdelmajid Badri , FST Mohammadia, Hassan II University,  Casablanca,"}, {"type": "title", "value": "Morocco."}, {"type": "header", "value": "Program Committee Chairs"}, {"type": "member", "value": {"firstName": "RachidEl", "lastName": "- Azouzi", "affiliationType": "University", "affiliationName": "Avignon", "country": "France"}}, {"type": "member", "value": {"firstName": "Mounir", "lastName": "Ghogho", "affiliationName": "Leeds", "affiliationType": "", "country": "Morocco"}}, {"type": "member", "value": {"firstName": "Essaid", "lastName": "Sabir", "affiliationName": "ENSEM , Hassan II", "affiliationType": "", "country": "Morocco"}}, {"type": "header", "value": "Publication Chairs"}, {"type": "member", "value": {"firstName": "Hicham", "lastName": "Ghennioui", "affiliationName": "FST , Sidi Mohamed Ben Abdellah", "affiliationType": "", "country": "Morocco"}}, {"type": "member", "value": {"firstName": "Lynda", "lastName": "Mokdad", "affiliationType": "University", "affiliationName": "Paris - Est", "country": "France"}}, {"type": "header", "value": "Publicity Chairs"}, {"type": "paragraph", "value": "Hyunbum Kim, Ph.D. University of North Carolina at Wilmington."}, {"type": "member", "value": {"firstName": "Luca", "lastName": "Foschini", "affiliationType": "University", "affiliationName": "Bologna", "country": "Italy"}}, {"type": "member", "value": {"firstName": "Shuai", "lastName": "Han", "affiliationName": "Harbin Institute of Technology", "country": "China"}}, {"type": "paragraph", "value": "Ahmed Drissi El Maliani, FSDM, Sidi Mohamed Ben Abdellah University, Fez,"}, {"type": "title", "value": "Morocco."}, {"type": "header", "value": "Keynote and Panels chairs"}, {"type": "member", "value": {"firstName": "Abdellatif", "lastName": "Kobbane", "affiliationName": "ENSIAS , Mohammed V", "affiliationType": "", "country": "Morocco"}}, {"type": "member", "value": {"firstName": "Mohammed", "lastName": "Essaaidi", "affiliationName": "Director of ENSIAS", "country": "Morocco"}}, {"type": "header", "value": "Sponsorship Chairs"}, {"type": "member", "value": {"firstName": "Amal", "lastName": "Tmiri", "affiliationName": "Chouaib Doukkali", "affiliationType": "", "country": "Morocco"}}, {"type": "member", "value": {"firstName": "Khalil", "lastName": "Ibrahimi", "affiliationName": "IbnTofail", "affiliationType": "", "country": "Morocco"}}, {"type": "header", "value": "Special sessions and Tutorials Chairs"}, {"type": "member", "value": {"firstName": "Soumaya", "lastName": "Cherkaoui", "affiliationType": "University", "affiliationName": "Sherbrooke", "country": "Canada"}}, {"type": "member", "value": {"firstName": "Mohamed", "lastName": "Et - Tolba", "affiliationName": "INPT", "country": "Morocco"}}, {"type": "header", "value": "Students Committee"}, {"type": "member", "value": {"firstName": "Afaf", "lastName": "Bouhoute", "affiliationName": "FSDM , Sidi Mohamed Ben Abdellah", "affiliationType": "", "country": "Morocco"}}, {"type": "paragraph", "value": "Ahmed El Ouadrhiri, FSDM, Sidi Mohamed Ben Abdellah University, Fez,"}, {"type": "title", "value": "Morocco."}, {"type": "member", "value": {"firstName": "Rachid", "lastName": "Oucheikh", "affiliationName": "FSDM , Sidi Mohamed Ben Abdellah", "affiliationType": "", "country": "Morocco"}}, {"type": "member", "value": {"firstName": "Imane", "lastName": "Rahmouni", "affiliationName": "FSDM , Sidi Mohamed Ben Abdellah", "affiliationType": "", "country": "Morocco"}}, {"type": "member", "value": {"firstName": "Imane", "lastName": "Tamimi", "affiliationName": "FSDM , Sidi Mohamed Ben Abdellah", "affiliationType": "", "country": "Morocco"}}, {"type": "member", "value": {"firstName": "Omar", "lastName": "AitOualhaj", "affiliationType": "University", "affiliationName": "Rabat", "country": "Morocco"}}, {"type": "member", "value": {"firstName": "Zakaria", "lastName": "Ye", "affiliationType": "University", "affiliationName": "Avignon", "country": "France"}}, {"type": "header", "value": "Local Organizing Committee"}, {"type": "paragraph", "value": "Mohammed El Hammoumi, Head of  TI Laboratory and Coordinator of the PoleTICSM , FST, USMBA Fez Morocco"}, {"type": "member", "value": {"firstName": "Mohammed", "lastName": "EL Mohajir", "affiliationName": "FSDM", "country": "Morocco"}}, {"type": "member", "value": {"firstName": "Rais", "lastName": "Noureddine", "affiliationName": "Head of LIMS Laboratory", "country": "Morocco"}}, {"type": "member", "value": {"firstName": "Abdelmoujib", "lastName": "Benkirane", "affiliationName": "Head of LAMA Laboratory", "country": "Morocco"}}, {"type": "member", "value": {"firstName": "Mohamed", "lastName": "Karim", "affiliationName": "Head of LISTA Laboratory", "country": "Morocco"}}, {"type": "member", "value": {"firstName": "Khalid", "lastName": "ZENKOUAR", "affiliationName": "Member of LSIA Laboratory", "country": "Morocco"}}, {"type": "member", "value": {"firstName": "M", "lastName": "' Hammed Lahbabi", "affiliationName": "Head of LSSC Laboratory", "country": "Morocco"}}, {"type": "member", "value": {"firstName": "Moulay", "lastName": "Lahcen Hasnaoui", "affiliationName": "FSDM", "country": "Morocco"}}, {"type": "member", "value": {"firstName": "Ahmed", "lastName": "Zinedine", "affiliationName": "FSDM", "country": "Morocco"}}, {"type": "paragraph", "value": "Follow us and help us to talk about WINCOM 2016:"}, {"type": "url", "value": "twitter.com/_WINCOM_"}, {"type": "url", "value": "web.facebook.com/wincomconf.org?notif_t=page_invite_accepted&_rdr"}]}, {"title": "Sincerely,", "lines": [{"type": "title", "value": "Sincerely,"}]}, {"title": "WINCOM 2016 Chairs.", "lines": [{"type": "title", "value": "WINCOM 2016 Chairs."}]}]}}}
+{
+  "0": {
+    "result": {
+      "Logic": 1,
+      "Performance": 1
+    },
+    "mail": {
+      "_id": {
+        "$oid": "616f04bd7aa7db5412d76841"
+      },
+      "listName": "info-ic",
+      "mailPopId": "2",
+      "time": "1634660076",
+      "body": "<br />=======================================================================<br /><br />[Apologies if you receives multiple copies of this CFP] <br />*************************************************************************************** <br /><br />Fuzzy Sets & Systems (FSS) <br />(http://www.journals.elsevier.com/fuzzy-sets-and-systems/)<br />   Call for Papers for a Special Issue on Fuzzy Approaches for Handling <br />Big Data <br />********************************************************************************<br /><br /><br />Guest Editors:<br />Prof. Sadok BEN YAHIA, Faculty of Sciences of Tunis, Tunisia<br />Prof. Anne LAURENT, University of Montpellier, France<br />Prof. Gabriella PASI, University of Milano, Italy<br /><br /><br />Scope and Topics:<br /><br />Big data is often referred to as being related to the paradigms of the <br />4V (Volume, Variety, Velocity, Veracity). Huge data sets require ad hoc <br />computational approaches to be managed and analyzed. Besides the <br />efficiency issue related to their dimensions, there is the important and <br />complex issue of mining useful information from data.<br /><br />Several are the scientific challenges associated with big data, ranging <br />from data capture, storage, sharing, modeling, analysis, and <br />visualization. Among the complex aspects to be addressed there is the <br />integration across heterogeneous, interdependent complex data resources <br />for real-time analytics and decision making.<br /><br />This special issue aims to publish selected research articles presenting <br />fuzzy logic based techniques in the emerging field of Big Data. More <br />specifically, it seeks for contributions standing at the cross-road of <br />theory and applications of fuzzy techniques in Big Data, including:<br /><br />* Scalability and performance of fuzzy algorithms, data structures;<br />* Novel fuzzy techniques to manage big data;<br />* Applications of fuzzy techniques to large datasets gathered in <br />business intelligence, finance, healthcare, bioinformatics, smart sensor <br />networks, cyber security, etc;<br />* Collaborative approaches where human and machine expertise are used in <br />a complementary manner.<br /><br />Submission procedure<br /><br />Please submit your article using the online manuscript submission <br />service at The submission website for this journal is located at: <br />http://ees.elsevier.com/fss/default.asp. It is important that <br />prospective authors select “SI:Fuzzy approaches 4BigData” as far as they <br />reach the “Article Type” step in the submission process.<br /><br /><br />Important Dates<br /><br />Submission of manuscripts: June 30th, 2016<br />Review notification to authors: September 15th , 2016<br />Submission of revised papers: October 30th, 2016<br />Notification of final review results: December 15th, 2016<br /><br /><br /><br /><br /><br /><br /><br />",
+      "subject": "4th CFP: : Special Issue on Fuzzy Approaches for Handling Big Data (Fuzzy Sets & Systems (FSS))",
+      "from": "Sadok Ben Yahia <sadok.benyahia@fst.rnu.tn>",
+      "date": "Sat, 28 May 2016 16:47:54 +0200",
+      "fromName": "Sadok Ben Yahia",
+      "fromMail": "sadok.benyahia@fst.rnu.tn",
+      "language": "en",
+      "isCFP": "1",
+      "blocks": [
+        {
+          "title": "none",
+          "lines": [
+            {
+              "type": "paragraph",
+              "value": "[Apologies if you receives multiple copies of this CFP] *************************************************************************************** "
+            },
+            {
+              "type": "paragraph",
+              "value": "Fuzzy Sets & Systems (FSS) "
+            },
+            {
+              "type": "url",
+              "value": "www.journals.elsevier.com/fuzzy-sets-and-systems/)"
+            },
+            {
+              "type": "paragraph",
+              "value": "   Call for Papers for a Special Issue on Fuzzy Approaches for Handling "
+            },
+            {
+              "type": "title",
+              "value": "Big Data "
+            },
+            {
+              "type": "separator",
+              "value": {
+                "content": "********************************************************************************"
+              }
+            }
+          ]
+        },
+        {
+          "title": "Guest Editors:",
+          "lines": [
+            {
+              "type": "title",
+              "value": "Guest Editors:"
+            },
+            {
+              "type": "member",
+              "value": {
+                "firstName": "Prof",
+                "lastName": ". Sadok BEN YAHIA",
+                "affiliationName": "Faculty of Sciences of Tunis",
+                "country": "Tunisia"
+              }
+            },
+            {
+              "type": "member",
+              "value": {
+                "firstName": "Prof",
+                "lastName": ". Anne LAURENT",
+                "affiliationType": "University",
+                "affiliationName": "Montpellier",
+                "country": "France"
+              }
+            },
+            {
+              "type": "member",
+              "value": {
+                "firstName": "Prof",
+                "lastName": ". Gabriella PASI",
+                "affiliationType": "University",
+                "affiliationName": "Milano",
+                "country": "Italy"
+              }
+            }
+          ]
+        },
+        {
+          "title": "Scope and Topics:",
+          "lines": [
+            {
+              "type": "title",
+              "value": "Scope and Topics:"
+            },
+            {
+              "type": "paragraph",
+              "value": "Big data is often referred to as being related to the paradigms of the 4V (Volume, Variety, Velocity, Veracity). Huge data sets require ad hoc computational approaches to be managed and analyzed. Besides the efficiency issue related to their dimensions, there is the important and complex issue of mining useful information from data."
+            },
+            {
+              "type": "paragraph",
+              "value": "Several are the scientific challenges associated with big data, ranging from data capture, storage, sharing, modeling, analysis, and visualization. Among the complex aspects to be addressed there is the integration across heterogeneous, interdependent complex data resources for real-time analytics and decision making."
+            },
+            {
+              "type": "paragraph",
+              "value": "This special issue aims to publish selected research articles presenting fuzzy logic based techniques in the emerging field of Big Data. More specifically, it seeks for contributions standing at the cross-road of theory and applications of fuzzy techniques in Big Data, including:"
+            },
+            {
+              "type": "enum",
+              "value": "Scalability and performance of fuzzy algorithms , data structures ;"
+            },
+            {
+              "type": "enum",
+              "value": "Novel fuzzy techniques to manage big data ;"
+            },
+            {
+              "type": "enum",
+              "value": "Applications of fuzzy techniques to large datasets gathered in"
+            },
+            {
+              "type": "paragraph",
+              "value": "business intelligence, finance, healthcare, bioinformatics, smart sensor networks, cyber security, etc;"
+            },
+            {
+              "type": "enum",
+              "value": "Collaborative approaches where human and machine expertise are used in"
+            },
+            {
+              "type": "paragraph",
+              "value": "a complementary manner."
+            }
+          ]
+        },
+        {
+          "title": "Submission procedure",
+          "lines": [
+            {
+              "type": "title",
+              "value": "Submission procedure"
+            },
+            {
+              "type": "paragraph",
+              "value": "Please submit your article using the online manuscript submission service at The submission website for this journal is located at: "
+            },
+            {
+              "type": "url",
+              "value": "ees.elsevier.com/fss/default.asp.Itisimportantthat"
+            },
+            {
+              "type": "paragraph",
+              "value": "prospective authors select “SI:Fuzzy approaches 4BigData” as far as they reach the “Article Type” step in the submission process."
+            }
+          ]
+        },
+        {
+          "title": "Important Dates",
+          "lines": [
+            {
+              "type": "title",
+              "value": "Important Dates"
+            },
+            {
+              "type": "paragraph",
+              "value": "Submission of manuscripts: June 30th, 2016Review notification to authors: September 15th , 2016Submission of revised papers: October 30th, 2016Notification of final review results: December 15th, 2016"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "1": {
+    "result": {
+      "Funding": 1
+    },
+    "mail": {
+      "_id": {
+        "$oid": "616f04bd7aa7dbee2fd76843"
+      },
+      "listName": "info-ic",
+      "mailPopId": "7",
+      "time": "1634660082",
+      "body": "*** English version below ***<br /><br />*** Sorry for cross posting ***<br /><br />-----------------------------------------------------------<br />Thèse CIFRE - ORANGE, Université de Caen Normandie, France<br />-----------------------------------------------------------<br /><br />Le Laboratoire GREYC/CNRS de l'Université de Caen Normandie et ORANGE<br />recherchent un étudiant de doctorat dans le cadre d'un financement CIFRE.<br /><br />L'étudiant sera amener à proposer et développer des solutions<br />innovatrices dans le cadre de l'analyse des contenus et des données<br />d’usage des outils de communication et de collaboration.<br /><br />Veuillez trouver un descriptif complet en suivant le lien suivant:<br />https://orange.jobs/jobs/offer.do?joid=53710&lang=FR<br /><br />La thèse se déroulera majoritairement sur le site d'ORANGE à Caen.<br /><br />Le candidat devra être titulaire d'un diplôme de niveau BAC+5 en<br />Informatique (ou équivalent) et démontrer des compétences dans les<br />domaines suivants (ou similaires):<br /><br />- Apprentissage Automatique,<br />- Gestion des Connaissances,<br />- Représentation et Raisonnement Spatio-temporels,<br />- Traitement Automatique des Langues.<br /><br />Une forte compétence en programmation et la maîtrise de l'anglais sont<br />des critères préférentiels.<br /><br />Les candidats intéressés doivent constituer un dossier comprenant:<br /><br />- CV détaillé,<br />- Relevés de notes,<br />- Lettre(s) de recommandation.<br /><br />Pour toute information complémentaire, veuillez contacter Maroua Bouzid<br />(maroua.bouzid-mouaddib@unicaen.fr).<br /><br />Les candidatures doivent être envoyées avant le 7 août 2016 (24h GMT+1) à:<br /><br />[1] Maroua Bouzid (maroua.bouzid-mouaddib@unicaen.fr) et Gaël Dias<br />(gael.dias@unicaen.fr) en format pdf, ou directement à<br /><br />[2] ORANGE: https://orange.jobs/jobs/offer.do?joid=53710&lang=FR<br /><br /><br />---------------------------------------------------------------------<br />*** English Version<br />---------------------------------------------------------------------<br /><br />The  GREYC/CNRS Laboratory of the Normandy University and ORANGE are<br />looking for a PhD student within the CIFRE funding framework.<br /><br />The student will have to propose and develop innovative solutions in the<br />context of content analysis and use of data from communication and<br />collaboration tools.<br /><br />A detailed description of the proposed work is available at the<br />following url: https://orange.jobs/jobs/offer.do?joid=53710&lang=FR<br /><br />The thesis will mainly take place at ORANGE, Caen, France.<br /><br />The successful candidate will hold a Msc. Degree in Computer Science<br />(or equivalent) and demonstrate outstanding skills in the following<br />areas (or similar):<br /><br />- Machine Learning,<br />- Knowledge Engineering,<br />- Spatio-Temporal Representation and Reasoning,<br />- Natural Language Processing.<br /><br />Strong programming skills and English proficiency are preferential<br />criteria.<br /><br />Interested applicants must prepare:<br /><br />- Detailed Resume,<br />- List of marks,<br />- Letter(s) of recommendation.<br /><br />For further information, please contact Maroua Bouzid<br />(maroua.bouzid-mouaddib@unicaen.fr).<br /><br />Applications should be sent before August 7, 2016 (24h GMT + 1) either to:<br /><br />[1] Maroua Bouzid (maroua.bouzid-mouaddib@unicaen.fr) and Gaël Dias<br />(gael.dias@unicaen.fr) in pdf format, or directly at<br /><br />[2] ORANGE website: https://orange.jobs/jobs/offer.do?joid=53710&lang=FR<br /><br />-- <br />-------------------------------------------------------------<br />Gaël Harry Dias              | Full Professor (PhD, HDR)<br />GREYC - HULTECH - UMR 6072   | [http://dias.users.greyc.fr]<br />University of Caen Normandie | [gael.dias@unicaen.fr]<br />Campus Côte de Nacre         | [Tel: +33 (0)2 31 56 74 87]<br />F-14032 Caen Cedex FRANCE    | [Fax: +33 (0)2 31 56 73 30]<br />------------------------------------------------------------<br /><br />",
+      "subject": "These CIFRE ORANGE/UCBN, PhD internship ORANGE/UCBN, France",
+      "from": "Nathalie Aussenac <nathalie.aussenac-gilles@irit.fr>",
+      "date": "Mon, 30 May 2016 22:26:53 +0200",
+      "fromName": "Nathalie Aussenac",
+      "fromMail": "nathalie.aussenac-gilles@irit.fr",
+      "language": "en",
+      "isCFP": "",
+      "blocks": [
+        {
+          "title": "none",
+          "lines": [
+            {
+              "type": "header",
+              "value": "English version below"
+            },
+            {
+              "type": "header",
+              "value": "Sorry for cross posting"
+            },
+            {
+              "type": "member",
+              "value": {
+                "firstName": "Thèse",
+                "lastName": "CIFRE - ORANGE",
+                "affiliationName": "Université de Caen Normandie",
+                "country": "France"
+              }
+            },
+            {
+              "type": "paragraph",
+              "value": "Le Laboratoire GREYC/CNRS de l'Université de Caen Normandie et ORANGErecherchent un étudiant de doctorat dans le cadre d'un financement CIFRE."
+            },
+            {
+              "type": "paragraph",
+              "value": "L'étudiant sera amener à proposer et développer des solutionsinnovatrices dans le cadre de l'analyse des contenus et des donnéesd’usage des outils de communication et de collaboration."
+            },
+            {
+              "type": "paragraph",
+              "value": "Veuillez trouver un descriptif complet en suivant le lien suivant:"
+            },
+            {
+              "type": "url",
+              "value": "orange.jobs/jobs/offer.do?joid=53710&lang=FR"
+            },
+            {
+              "type": "paragraph",
+              "value": "La thèse se déroulera majoritairement sur le site d'ORANGE à Caen."
+            },
+            {
+              "type": "paragraph",
+              "value": "Le candidat devra être titulaire d'un diplôme de niveau BAC+5 enInformatique (ou équivalent) et démontrer des compétences dans lesdomaines suivants (ou similaires):"
+            },
+            {
+              "type": "enum",
+              "value": "Apprentissage Automatique ,"
+            },
+            {
+              "type": "enum",
+              "value": "Gestion des Connaissances ,"
+            },
+            {
+              "type": "enum",
+              "value": "Représentation et Raisonnement Spatio - temporels ,"
+            },
+            {
+              "type": "enum",
+              "value": "Traitement Automatique des Langues ."
+            },
+            {
+              "type": "paragraph",
+              "value": "Une forte compétence en programmation et la maîtrise de l'anglais sontdes critères préférentiels."
+            },
+            {
+              "type": "paragraph",
+              "value": "Les candidats intéressés doivent constituer un dossier comprenant:"
+            },
+            {
+              "type": "enum",
+              "value": "CV détaillé ,"
+            },
+            {
+              "type": "enum",
+              "value": "Relevés de notes ,"
+            },
+            {
+              "type": "enum",
+              "value": "Lettre ( s ) de recommandation ."
+            },
+            {
+              "type": "paragraph",
+              "value": "Pour toute information complémentaire, veuillez contacter Maroua Bouzid(maroua.bouzid-mouaddib@unicaen.fr)."
+            },
+            {
+              "type": "paragraph",
+              "value": "Les candidatures doivent être envoyées avant le 7 août 2016 (24h GMT+1) à:"
+            },
+            {
+              "type": "paragraph",
+              "value": "[1] Maroua Bouzid (maroua.bouzid-mouaddib@unicaen.fr) et Gaël Dias(gael.dias@unicaen.fr) en format pdf, ou directement à"
+            },
+            {
+              "type": "url",
+              "value": "orange.jobs/jobs/offer.do?joid=53710&lang=FR"
+            },
+            {
+              "type": "enum",
+              "value": "English Version"
+            },
+            {
+              "type": "paragraph",
+              "value": "The  GREYC/CNRS Laboratory of the Normandy University and ORANGE arelooking for a PhD student within the CIFRE funding framework."
+            },
+            {
+              "type": "paragraph",
+              "value": "The student will have to propose and develop innovative solutions in thecontext of content analysis and use of data from communication andcollaboration tools."
+            },
+            {
+              "type": "paragraph",
+              "value": "A detailed description of the proposed work is available at the"
+            },
+            {
+              "type": "url",
+              "value": "orange.jobs/jobs/offer.do?joid=53710&lang=FR"
+            },
+            {
+              "type": "member",
+              "value": {
+                "firstName": "The",
+                "lastName": "thesis will mainly take place at ORANGE",
+                "affiliationName": "Caen",
+                "country": "France"
+              }
+            },
+            {
+              "type": "paragraph",
+              "value": "The successful candidate will hold a Msc. Degree in Computer Science(or equivalent) and demonstrate outstanding skills in the followingareas (or similar):"
+            },
+            {
+              "type": "enum",
+              "value": "Machine Learning ,"
+            },
+            {
+              "type": "enum",
+              "value": "Knowledge Engineering ,"
+            },
+            {
+              "type": "enum",
+              "value": "Spatio - Temporal Representation and Reasoning ,"
+            },
+            {
+              "type": "enum",
+              "value": "Natural Language Processing ."
+            },
+            {
+              "type": "paragraph",
+              "value": "Strong programming skills and English proficiency are preferentialcriteria."
+            }
+          ]
+        },
+        {
+          "title": "Interested applicants must prepare:",
+          "lines": [
+            {
+              "type": "title",
+              "value": "Interested applicants must prepare:"
+            },
+            {
+              "type": "enum",
+              "value": "Detailed Resume ,"
+            },
+            {
+              "type": "enum",
+              "value": "List of marks ,"
+            },
+            {
+              "type": "enum",
+              "value": "Letter ( s ) of recommendation ."
+            },
+            {
+              "type": "paragraph",
+              "value": "For further information, please contact Maroua Bouzid(maroua.bouzid-mouaddib@unicaen.fr)."
+            },
+            {
+              "type": "paragraph",
+              "value": "Applications should be sent before August 7, 2016 (24h GMT + 1) either to:"
+            },
+            {
+              "type": "paragraph",
+              "value": "[1] Maroua Bouzid (maroua.bouzid-mouaddib@unicaen.fr) and Gaël Dias(gael.dias@unicaen.fr) in pdf format, or directly at"
+            },
+            {
+              "type": "url",
+              "value": "orange.jobs/jobs/offer.do?joid=53710&lang=FR"
+            },
+            {
+              "type": "paragraph",
+              "value": "-- "
+            },
+            {
+              "type": "paragraph",
+              "value": "Gaël Harry Dias              | Full Professor (PhD, HDR)"
+            },
+            {
+              "type": "url",
+              "value": "dias.users.greyc.fr]"
+            },
+            {
+              "type": "paragraph",
+              "value": "University of Caen Normandie | [gael.dias@unicaen.fr]Campus Côte de Nacre         | [Tel: +33 (0)2 31 56 74 87]F-14032 Caen Cedex FRANCE    | [Fax: +33 (0)2 31 56 73 30]"
+            },
+            {
+              "type": "separator",
+              "value": {
+                "content": "------------------------------------------------------------"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "2": {
+    "result": {
+      "Networks": 1,
+      "Design": 1,
+      "Performance": 1
+    },
+    "mail": {
+      "_id": {
+        "$oid": "616f04bd7aa7db52e6d76845"
+      },
+      "listName": "info-ic",
+      "mailPopId": "15",
+      "time": "1634660092",
+      "body": "We appreciate your help if you forward this CFPs to your mailing lists.<br /><br />We apologize in advance if you receive multiple copies of this CFP<br /><br />*Submission Extended Deadline: June 20, 2016*<br /><br />*THE INTERNATIONAL CONFERENCE ON WIRELESS NETWORKS AND MOBILE<br />COMMUNICATIONS*  *(WINCOM 2016)*<br /><br />*Theme of the 2016 edition*<br /><br />*« Green Communications and Networking »*<br /><br /><br /> *October 26-29, 2016, Fez, Morocco*<br />www.wincom-conf.org<br /><br /><br />*Indexed: Scopus, ISI and DBLP*<br /><br /><br /><br />*Technical Support : IEEE Communications Society*<br /><br /><br /><br />*     [image: Images intégrées 1]                              [image:<br />Images intégrées 1]*<br /><br /><br />*Important dates:*<br /><br />*Ssubmission - Extended Deadline: June 20,2016*<br />Notification of acceptance: July 25, 2016<br />Camera ready:  August 25, 2016<br />Registration due: September 15, 2016<br />Conference date: October 26-29, 2016<br /><br /><br />         The international conference on wireless networks and mobile<br />communications (WINCOM’16) will be held in the Imperial city and Scientific<br />capital of  Morocco, Fez, on 26-29 October 2016. WINCOM’16 aims at<br />examining the various challenges in the areas of wireless networks & mobile<br />communications. The conference will provide a forum for exchanging ideas,<br />discussing solutions, and sharing experiences among researchers and<br />professionals from both academia and industry interested in wireless<br />networks and mobile communications.  Papers describing original research<br />work on both theoretical and practical aspects of wireless networks and<br />mobile communications are highly solicited.<br /><br />         WINCOM 2016 covers all types of wireless communications and<br />networks: cellular networks, metropolitan networks, local area networks, ad<br />hoc networks, sensor networks, delay-tolerant networks, mesh networks,<br />content-driven networks, vehicular networks, or any convex combination of<br />the above. Contributions to the conference should provide a significant<br />improvement, compared to the state-of-the-art, to the design, analysis, and<br />operations of wireless networks, either by offering new insights on<br />theoretical aspects or by proposing novel practical optimization methods<br />and tools.<br /><br />*Paper Submission*<br /><br />         Papers should contain original material which is not currently<br />under review in any other conference or journal and has not been previously<br />published. All submissions should be written in English with a<br />maximum paper length of six (devil) printed pages standard IEEE conference<br />two-column format (minimum 10-point font) including figures, without<br />incurring additional page charges (maximum 2 additional pages, with over<br />length page fee).<br /><br />         All submitted papers will go through a peer review process.<br />Questions about paper submissions or the conference program can be<br />addressed to any of the Program Chairs. Standard IEEE Transactions<br />templates for Microsoft Word or LaTeX formats can be found at:<br /><br />http://www.ieee.org/conferences_events/conferences/publishing/templates.html<br /><br /><br />         Only PDF files will be accepted for the review process and all<br />submissions must be done through EDAS online submission system:<br />http://edas.info/N22368. You are invited to submit papers in all areas of<br />wireless communications networks.<br /><br />All accepted and registered papers at WINCOM 2016 will be submitted to<br /> IEEE for potential inclusion to the IEEE Xplore. They will also be<br />submitted to SCOPUS, ISI, DBLP and other leading indexing<br />services. Papers of particular merit will be recommended for a possible<br />special issue in an international journal. There will also be best papers<br />awards.<br /><br />*Topics of interest include, but are not limited to:*<br /><br />v  Cooperative/non-cooperative communications<br /><br />v  Game theory applied to networking problems<br /><br />v  Learning theory to solve networking problems<br /><br />v  Modeling and performance evaluation<br /><br />v  Energy efficient communications and green networking<br /><br />v  Interference mitigation<br /><br />v  Physical layer design and Signal processing<br /><br />v  Channel capacity estimation, modeling and equalization<br /><br />v  Radio resource management, allocation and scheduling<br /><br />v  Congestion, load and admission control<br /><br />v  Smart antennas: MIMO, Massive MIMO and beamforming<br /><br />v  Reconfigurability, adaptivity in MAC and PHY layers<br /><br />v  Adaptive and cognitive MAC<br /><br />v  Cross-layer design involving MAC layer<br /><br />v  Routing and QoS provisioning<br /><br />v  Multihop communications: Ad hoc, WSN, DTN, VANET<br /><br />v  Mobility Issues and continuity of services<br /><br />v  Multi-homing in 4G, B4G and 5G Networks<br /><br />v  Beyond 4G and 5G communications<br /><br />v  M2M and MTC communications<br /><br />v  Cognitive radio networks<br /><br />v  Implementation, testbeds and prototypes<br /><br />v  Security issues and privacy<br /><br />v  Body area networks<br /><br />v  Internet of things<br /><br />v  Future Internet and Next-Generation Networking<br /><br />v  Mobile cloud computing<br /><br />v  Emerging Internet applications<br /><br />v  Context and location-awareness in pervasive systems<br /><br />v  Emerging wireless and mobile applications<br /><br />v  User interfaces, user-machine interactions<br /><br />v  P2P services for multimedia<br /><br />v  Secure network and service access<br /><br />v  Self-adaptation on the service layer<br /><br />v  Service discovery and portability<br /><br />v  Service oriented architectures<br /><br />*ORGANIZING COMMITTEE*<br /><br /><br /><br />*Honorary General Chairs*<br /><br />Omar Assobhei, President of Sidi Mohammed Ben Abdallah University, Fez,<br />Morocco.<br /><br />Mohammed Benlemlih, Dean of Faculty of Science Dhar El Mahraz, Fez, Morocco.<br /><br />Mustapha Ijaali, Dean of  Faculty of  Science & Technology, Fez, Morocco.<br /><br />Mustapha Lkhider , Dean of Faculty of Science & Technology,  Mohammedia,<br />Morocco<br /><br /> *General Chair*<br /><br />Khaled B. Letaief, Chair Professor, ECE Departement, HKUST, Hong Kong.<br /><br /> *General Co-Chairs*<br /><br />Jalel Ben-Othman, University of Paris 13, France.<br /><br />Azzedine Boukerche, University of Ottawa, Canada.<br /><br />*Local Chair*<br /><br />Mohamed El Kamili, FSDM, Sidi Mohammed Ben Abdallah University,  Fez,<br />Morocco.<br /><br /><br />*Local Co-Chairs*<br /><br />Ismail Berrada, FSDM, Sidi Mohammed Ben Abdallah University,  Fez, Morocco.<br /><br />Abdelmajid Badri , FST Mohammadia, Hassan II University,  Casablanca,<br />Morocco.<br /><br /><br />*Program Committee Chairs*<br /><br />RachidEl-Azouzi, LIA, University of Avignon, France.<br /><br />Mounir Ghogho, Leeds University England and UIR, Morocco.<br /><br />Essaid Sabir, ENSEM, Hassan II University ,  Casablanca, Morocco.<br /><br />*Publication Chairs*<br /><br />Hicham Ghennioui, FST, Sidi Mohamed Ben Abdellah University, Fez, Morocco.<br /><br />Lynda Mokdad, University of Paris-Est, Creteil, France.<br /><br />*Publicity  Chairs *<br /><br />Hyunbum Kim, Ph.D. University of North Carolina at Wilmington.<br /><br />Luca Foschini, DEIS-LIA, University of Bologna, Italy.<br /><br />Shuai Han, Harbin Institute of Technology, China.<br /><br />Ahmed Drissi El Maliani, FSDM, Sidi Mohamed Ben Abdellah University, Fez,<br />Morocco.<br /><br />*Keynote and Panels chairs*<br /><br />Abdellatif Kobbane, ENSIAS, Mohammed V University , Rabat, Morocco.<br /><br />Mohammed Essaaidi, Director of ENSIAS, Rabat, Morocco.<br /><br />*Sponsorship Chairs*<br /><br />Amal Tmiri, Chouaib Doukkali University, El-Jadida,  Morocco<br /><br />Khalil Ibrahimi, IbnTofail University,  Kenitra, Morocco.<br /><br />*Special sessions and Tutorials  Chairs*<br /><br />Soumaya Cherkaoui, University of Sherbrooke, Canada.<br /><br />Mohamed Et-Tolba, INPT, Rabat, Morocco<br /><br />*Students Committee*<br /><br />Afaf Bouhoute, FSDM, Sidi Mohamed Ben Abdellah University, Fez, Morocco.<br /><br />Ahmed El Ouadrhiri, FSDM, Sidi Mohamed Ben Abdellah University, Fez,<br />Morocco.<br /><br />Rachid Oucheikh, FSDM, Sidi Mohamed Ben Abdellah University, Fez, Morocco.<br /><br />Imane Rahmouni, FSDM, Sidi Mohamed Ben Abdellah University, Fez, Morocco.<br /><br />Imane Tamimi, FSDM, Sidi Mohamed Ben Abdellah University, Fez, Morocco.<br /><br />Omar AitOualhaj,, ENSIAS, Mohammed V University of Rabat, Morocco.<br /><br />Zakaria Ye, University of Avignon, France.<br /><br /><br /><br />*Local Organizing Committee*<br /><br />Mohammed El Hammoumi, Head of  TI Laboratory and Coordinator of the Pole<br />TICSM , FST, USMBA Fez Morocco<br /><br />Mohammed EL Mohajir, FSDM, USMBA Fez,  IEEE Morocco section Chair<br /><br />Rais Noureddine, Head of LIMS Laboratory, FSDM, USMBA Fez, Morocco<br /><br />Abdelmoujib Benkirane, Head of LAMA Laboratory, FSDM, USMBA Fez, Morocco<br /><br />Mohamed Karim, Head of LISTA Laboratory, FSDM, USMBA Fez, Morocco<br /><br />Khalid ZENKOUAR, Member of  LSIA Laboratory, FST, USMBA Fez, Morocco<br /><br />M'Hammed Lahbabi, Head of LSSC Laboratory, FST, USMBA Fez, Morocco<br /><br />Moulay Lahcen Hasnaoui, FSDM, USMBA Fez, Morocco<br /><br />Ahmed Zinedine, FSDM, USMBA Fez, Morocco<br /><br /><br /><br />Follow us and help us to talk about WINCOM 2016:<br /><br />https://twitter.com/_WINCOM_<br /><br />https://web.facebook.com/wincomconf.org?notif_t=page_invite_accepted&_rdr<br /><br />Sincerely,<br /><br />WINCOM 2016 Chairs.<br />",
+      "subject": "WINCOM' 2016 Deadline Extended to 20 June",
+      "from": "Afaf BOUHOUTE <afaf.bouhoute@gmail.com>",
+      "date": "Thu, 2 Jun 2016 19:05:41 +0200",
+      "fromName": "Afaf BOUHOUTE",
+      "fromMail": "afaf.bouhoute@gmail.com",
+      "language": "en",
+      "isCFP": "1",
+      "blocks": [
+        {
+          "title": "none",
+          "lines": [
+            {
+              "type": "paragraph",
+              "value": "We appreciate your help if you forward this CFPs to your mailing lists."
+            },
+            {
+              "type": "paragraph",
+              "value": "We apologize in advance if you receive multiple copies of this CFP"
+            },
+            {
+              "type": "header",
+              "value": "Submission Extended Deadline : 6 20 , 2016"
+            },
+            {
+              "type": "enum",
+              "value": "THE INTERNATIONAL CONFERENCE ON WIRELESS NETWORKS AND MOBILE"
+            },
+            {
+              "type": "header",
+              "value": {
+                "header": "( WINCOM 2016 )"
+              }
+            },
+            {
+              "type": "header",
+              "value": "Theme of the 2016 edition"
+            },
+            {
+              "type": "header",
+              "value": "« Green Communications and Networking »"
+            },
+            {
+              "type": "member",
+              "value": {
+                "firstName": "*",
+                "lastName": "10 26 - 29",
+                "affiliationName": "2016",
+                "country": "Morocco"
+              }
+            },
+            {
+              "type": "paragraph",
+              "value": "www.wincom-conf.org"
+            },
+            {
+              "type": "header",
+              "value": "Indexed : Scopus , ISI and DBLP"
+            },
+            {
+              "type": "header",
+              "value": "Technical Support : IEEE Communications Society"
+            },
+            {
+              "type": "enum",
+              "value": "[ image : Images intégrées 1 ] [ image :"
+            },
+            {
+              "type": "title",
+              "value": "Images intégrées 1]*"
+            },
+            {
+              "type": "header",
+              "value": "Important dates :"
+            },
+            {
+              "type": "header",
+              "value": "Ssubmission - Extended Deadline : 6 20 , 2016"
+            },
+            {
+              "type": "paragraph",
+              "value": "Notification of acceptance: July 25, 2016Camera ready:  August 25, 2016"
+            },
+            {
+              "type": "title",
+              "value": "Registration due: September 15, 2016"
+            },
+            {
+              "type": "dateInterval",
+              "value": {
+                "month": "10",
+                "dayBegin": "26",
+                "dayEnd": "29",
+                "year": "2016"
+              }
+            },
+            {
+              "type": "paragraph",
+              "value": "         The international conference on wireless networks and mobilecommunications (WINCOM’16) will be held in the Imperial city and Scientificcapital of  Morocco, Fez, on 26-29 October 2016. WINCOM’16 aims atexamining the various challenges in the areas of wireless networks & mobilecommunications. The conference will provide a forum for exchanging ideas,discussing solutions, and sharing experiences among researchers andprofessionals from both academia and industry interested in wirelessnetworks and mobile communications.  Papers describing original researchwork on both theoretical and practical aspects of wireless networks andmobile communications are highly solicited."
+            },
+            {
+              "type": "paragraph",
+              "value": "         WINCOM 2016 covers all types of wireless communications andnetworks: cellular networks, metropolitan networks, local area networks, adhoc networks, sensor networks, delay-tolerant networks, mesh networks,content-driven networks, vehicular networks, or any convex combination ofthe above. Contributions to the conference should provide a significantimprovement, compared to the state-of-the-art, to the design, analysis, andoperations of wireless networks, either by offering new insights ontheoretical aspects or by proposing novel practical optimization methodsand tools."
+            },
+            {
+              "type": "header",
+              "value": "Paper Submission"
+            },
+            {
+              "type": "paragraph",
+              "value": "         Papers should contain original material which is not currentlyunder review in any other conference or journal and has not been previouslypublished. All submissions should be written in English with amaximum paper length of six (devil) printed pages standard IEEE conferencetwo-column format (minimum 10-point font) including figures, withoutincurring additional page charges (maximum 2 additional pages, with overlength page fee)."
+            },
+            {
+              "type": "paragraph",
+              "value": "         All submitted papers will go through a peer review process.Questions about paper submissions or the conference program can beaddressed to any of the Program Chairs. Standard IEEE Transactionstemplates for Microsoft Word or LaTeX formats can be found at:"
+            },
+            {
+              "type": "url",
+              "value": "www.ieee.org/conferences_events/conferences/publishing/templates.html"
+            },
+            {
+              "type": "paragraph",
+              "value": "         Only PDF files will be accepted for the review process and allsubmissions must be done through EDAS online submission system:"
+            },
+            {
+              "type": "url",
+              "value": "edas.info/N22368.Youareinvitedtosubmitpapersinallareasof"
+            },
+            {
+              "type": "paragraph",
+              "value": "wireless communications networks."
+            },
+            {
+              "type": "paragraph",
+              "value": "All accepted and registered papers at WINCOM 2016 will be submitted to IEEE for potential inclusion to the IEEE Xplore. They will also besubmitted to SCOPUS, ISI, DBLP and other leading indexingservices. Papers of particular merit will be recommended for a possiblespecial issue in an international journal. There will also be best papersawards."
+            },
+            {
+              "type": "header",
+              "value": "Topics of interest include , but are not limited to :"
+            },
+            {
+              "type": "paragraph",
+              "value": "v  Cooperative/non-cooperative communications"
+            },
+            {
+              "type": "paragraph",
+              "value": "v  Game theory applied to networking problems"
+            },
+            {
+              "type": "paragraph",
+              "value": "v  Learning theory to solve networking problems"
+            },
+            {
+              "type": "paragraph",
+              "value": "v  Modeling and performance evaluation"
+            },
+            {
+              "type": "paragraph",
+              "value": "v  Energy efficient communications and green networking"
+            },
+            {
+              "type": "paragraph",
+              "value": "v  Interference mitigation"
+            },
+            {
+              "type": "paragraph",
+              "value": "v  Physical layer design and Signal processing"
+            },
+            {
+              "type": "paragraph",
+              "value": "v  Channel capacity estimation, modeling and equalization"
+            },
+            {
+              "type": "paragraph",
+              "value": "v  Radio resource management, allocation and scheduling"
+            },
+            {
+              "type": "paragraph",
+              "value": "v  Congestion, load and admission control"
+            },
+            {
+              "type": "paragraph",
+              "value": "v  Smart antennas: MIMO, Massive MIMO and beamforming"
+            },
+            {
+              "type": "paragraph",
+              "value": "v  Reconfigurability, adaptivity in MAC and PHY layers"
+            },
+            {
+              "type": "paragraph",
+              "value": "v  Adaptive and cognitive MAC"
+            },
+            {
+              "type": "paragraph",
+              "value": "v  Cross-layer design involving MAC layer"
+            },
+            {
+              "type": "paragraph",
+              "value": "v  Routing and QoS provisioning"
+            },
+            {
+              "type": "paragraph",
+              "value": "v  Multihop communications: Ad hoc, WSN, DTN, VANET"
+            },
+            {
+              "type": "paragraph",
+              "value": "v  Mobility Issues and continuity of services"
+            },
+            {
+              "type": "paragraph",
+              "value": "v  Multi-homing in 4G, B4G and 5G Networks"
+            },
+            {
+              "type": "paragraph",
+              "value": "v  Beyond 4G and 5G communications"
+            },
+            {
+              "type": "paragraph",
+              "value": "v  M2M and MTC communications"
+            },
+            {
+              "type": "paragraph",
+              "value": "v  Cognitive radio networks"
+            },
+            {
+              "type": "paragraph",
+              "value": "v  Implementation, testbeds and prototypes"
+            },
+            {
+              "type": "paragraph",
+              "value": "v  Security issues and privacy"
+            },
+            {
+              "type": "paragraph",
+              "value": "v  Body area networks"
+            },
+            {
+              "type": "paragraph",
+              "value": "v  Internet of things"
+            },
+            {
+              "type": "paragraph",
+              "value": "v  Future Internet and Next-Generation Networking"
+            },
+            {
+              "type": "paragraph",
+              "value": "v  Mobile cloud computing"
+            },
+            {
+              "type": "paragraph",
+              "value": "v  Emerging Internet applications"
+            },
+            {
+              "type": "paragraph",
+              "value": "v  Context and location-awareness in pervasive systems"
+            },
+            {
+              "type": "paragraph",
+              "value": "v  Emerging wireless and mobile applications"
+            },
+            {
+              "type": "paragraph",
+              "value": "v  User interfaces, user-machine interactions"
+            },
+            {
+              "type": "paragraph",
+              "value": "v  P2P services for multimedia"
+            },
+            {
+              "type": "paragraph",
+              "value": "v  Secure network and service access"
+            },
+            {
+              "type": "paragraph",
+              "value": "v  Self-adaptation on the service layer"
+            },
+            {
+              "type": "paragraph",
+              "value": "v  Service discovery and portability"
+            },
+            {
+              "type": "paragraph",
+              "value": "v  Service oriented architectures"
+            },
+            {
+              "type": "header",
+              "value": "ORGANIZING COMMITTEE"
+            },
+            {
+              "type": "header",
+              "value": "Honorary General Chairs"
+            },
+            {
+              "type": "paragraph",
+              "value": "Omar Assobhei, President of Sidi Mohammed Ben Abdallah University, Fez,"
+            },
+            {
+              "type": "title",
+              "value": "Morocco."
+            },
+            {
+              "type": "member",
+              "value": {
+                "firstName": "Mohammed",
+                "lastName": "Benlemlih",
+                "affiliationName": "Dean of Faculty of Science Dhar El Mahraz",
+                "country": "Morocco"
+              }
+            },
+            {
+              "type": "member",
+              "value": {
+                "firstName": "Mustapha",
+                "lastName": "Ijaali",
+                "affiliationName": "Dean of Faculty of Science & Technology",
+                "country": "Morocco"
+              }
+            },
+            {
+              "type": "paragraph",
+              "value": "Mustapha Lkhider , Dean of Faculty of Science & Technology,  Mohammedia,"
+            },
+            {
+              "type": "title",
+              "value": "Morocco"
+            },
+            {
+              "type": "header",
+              "value": "General Chair"
+            },
+            {
+              "type": "paragraph",
+              "value": "Khaled B. Letaief, Chair Professor, ECE Departement, HKUST, Hong Kong."
+            },
+            {
+              "type": "header",
+              "value": "General Co - Chairs"
+            },
+            {
+              "type": "member",
+              "value": {
+                "firstName": "Jalel",
+                "lastName": "Ben - Othman",
+                "affiliationType": "University",
+                "affiliationName": "Paris 13",
+                "country": "France"
+              }
+            },
+            {
+              "type": "member",
+              "value": {
+                "firstName": "Azzedine",
+                "lastName": "Boukerche",
+                "affiliationType": "University",
+                "affiliationName": "Ottawa",
+                "country": "Canada"
+              }
+            },
+            {
+              "type": "header",
+              "value": "Local Chair"
+            },
+            {
+              "type": "paragraph",
+              "value": "Mohamed El Kamili, FSDM, Sidi Mohammed Ben Abdallah University,  Fez,"
+            },
+            {
+              "type": "title",
+              "value": "Morocco."
+            },
+            {
+              "type": "header",
+              "value": "Local Co - Chairs"
+            },
+            {
+              "type": "member",
+              "value": {
+                "firstName": "Ismail",
+                "lastName": "Berrada",
+                "affiliationName": "FSDM , Sidi Mohammed Ben Abdallah",
+                "affiliationType": "",
+                "country": "Morocco"
+              }
+            },
+            {
+              "type": "paragraph",
+              "value": "Abdelmajid Badri , FST Mohammadia, Hassan II University,  Casablanca,"
+            },
+            {
+              "type": "title",
+              "value": "Morocco."
+            },
+            {
+              "type": "header",
+              "value": "Program Committee Chairs"
+            },
+            {
+              "type": "member",
+              "value": {
+                "firstName": "RachidEl",
+                "lastName": "- Azouzi",
+                "affiliationType": "University",
+                "affiliationName": "Avignon",
+                "country": "France"
+              }
+            },
+            {
+              "type": "member",
+              "value": {
+                "firstName": "Mounir",
+                "lastName": "Ghogho",
+                "affiliationName": "Leeds",
+                "affiliationType": "",
+                "country": "Morocco"
+              }
+            },
+            {
+              "type": "member",
+              "value": {
+                "firstName": "Essaid",
+                "lastName": "Sabir",
+                "affiliationName": "ENSEM , Hassan II",
+                "affiliationType": "",
+                "country": "Morocco"
+              }
+            },
+            {
+              "type": "header",
+              "value": "Publication Chairs"
+            },
+            {
+              "type": "member",
+              "value": {
+                "firstName": "Hicham",
+                "lastName": "Ghennioui",
+                "affiliationName": "FST , Sidi Mohamed Ben Abdellah",
+                "affiliationType": "",
+                "country": "Morocco"
+              }
+            },
+            {
+              "type": "member",
+              "value": {
+                "firstName": "Lynda",
+                "lastName": "Mokdad",
+                "affiliationType": "University",
+                "affiliationName": "Paris - Est",
+                "country": "France"
+              }
+            },
+            {
+              "type": "header",
+              "value": "Publicity Chairs"
+            },
+            {
+              "type": "paragraph",
+              "value": "Hyunbum Kim, Ph.D. University of North Carolina at Wilmington."
+            },
+            {
+              "type": "member",
+              "value": {
+                "firstName": "Luca",
+                "lastName": "Foschini",
+                "affiliationType": "University",
+                "affiliationName": "Bologna",
+                "country": "Italy"
+              }
+            },
+            {
+              "type": "member",
+              "value": {
+                "firstName": "Shuai",
+                "lastName": "Han",
+                "affiliationName": "Harbin Institute of Technology",
+                "country": "China"
+              }
+            },
+            {
+              "type": "paragraph",
+              "value": "Ahmed Drissi El Maliani, FSDM, Sidi Mohamed Ben Abdellah University, Fez,"
+            },
+            {
+              "type": "title",
+              "value": "Morocco."
+            },
+            {
+              "type": "header",
+              "value": "Keynote and Panels chairs"
+            },
+            {
+              "type": "member",
+              "value": {
+                "firstName": "Abdellatif",
+                "lastName": "Kobbane",
+                "affiliationName": "ENSIAS , Mohammed V",
+                "affiliationType": "",
+                "country": "Morocco"
+              }
+            },
+            {
+              "type": "member",
+              "value": {
+                "firstName": "Mohammed",
+                "lastName": "Essaaidi",
+                "affiliationName": "Director of ENSIAS",
+                "country": "Morocco"
+              }
+            },
+            {
+              "type": "header",
+              "value": "Sponsorship Chairs"
+            },
+            {
+              "type": "member",
+              "value": {
+                "firstName": "Amal",
+                "lastName": "Tmiri",
+                "affiliationName": "Chouaib Doukkali",
+                "affiliationType": "",
+                "country": "Morocco"
+              }
+            },
+            {
+              "type": "member",
+              "value": {
+                "firstName": "Khalil",
+                "lastName": "Ibrahimi",
+                "affiliationName": "IbnTofail",
+                "affiliationType": "",
+                "country": "Morocco"
+              }
+            },
+            {
+              "type": "header",
+              "value": "Special sessions and Tutorials Chairs"
+            },
+            {
+              "type": "member",
+              "value": {
+                "firstName": "Soumaya",
+                "lastName": "Cherkaoui",
+                "affiliationType": "University",
+                "affiliationName": "Sherbrooke",
+                "country": "Canada"
+              }
+            },
+            {
+              "type": "member",
+              "value": {
+                "firstName": "Mohamed",
+                "lastName": "Et - Tolba",
+                "affiliationName": "INPT",
+                "country": "Morocco"
+              }
+            },
+            {
+              "type": "header",
+              "value": "Students Committee"
+            },
+            {
+              "type": "member",
+              "value": {
+                "firstName": "Afaf",
+                "lastName": "Bouhoute",
+                "affiliationName": "FSDM , Sidi Mohamed Ben Abdellah",
+                "affiliationType": "",
+                "country": "Morocco"
+              }
+            },
+            {
+              "type": "paragraph",
+              "value": "Ahmed El Ouadrhiri, FSDM, Sidi Mohamed Ben Abdellah University, Fez,"
+            },
+            {
+              "type": "title",
+              "value": "Morocco."
+            },
+            {
+              "type": "member",
+              "value": {
+                "firstName": "Rachid",
+                "lastName": "Oucheikh",
+                "affiliationName": "FSDM , Sidi Mohamed Ben Abdellah",
+                "affiliationType": "",
+                "country": "Morocco"
+              }
+            },
+            {
+              "type": "member",
+              "value": {
+                "firstName": "Imane",
+                "lastName": "Rahmouni",
+                "affiliationName": "FSDM , Sidi Mohamed Ben Abdellah",
+                "affiliationType": "",
+                "country": "Morocco"
+              }
+            },
+            {
+              "type": "member",
+              "value": {
+                "firstName": "Imane",
+                "lastName": "Tamimi",
+                "affiliationName": "FSDM , Sidi Mohamed Ben Abdellah",
+                "affiliationType": "",
+                "country": "Morocco"
+              }
+            },
+            {
+              "type": "member",
+              "value": {
+                "firstName": "Omar",
+                "lastName": "AitOualhaj",
+                "affiliationType": "University",
+                "affiliationName": "Rabat",
+                "country": "Morocco"
+              }
+            },
+            {
+              "type": "member",
+              "value": {
+                "firstName": "Zakaria",
+                "lastName": "Ye",
+                "affiliationType": "University",
+                "affiliationName": "Avignon",
+                "country": "France"
+              }
+            },
+            {
+              "type": "header",
+              "value": "Local Organizing Committee"
+            },
+            {
+              "type": "paragraph",
+              "value": "Mohammed El Hammoumi, Head of  TI Laboratory and Coordinator of the PoleTICSM , FST, USMBA Fez Morocco"
+            },
+            {
+              "type": "member",
+              "value": {
+                "firstName": "Mohammed",
+                "lastName": "EL Mohajir",
+                "affiliationName": "FSDM",
+                "country": "Morocco"
+              }
+            },
+            {
+              "type": "member",
+              "value": {
+                "firstName": "Rais",
+                "lastName": "Noureddine",
+                "affiliationName": "Head of LIMS Laboratory",
+                "country": "Morocco"
+              }
+            },
+            {
+              "type": "member",
+              "value": {
+                "firstName": "Abdelmoujib",
+                "lastName": "Benkirane",
+                "affiliationName": "Head of LAMA Laboratory",
+                "country": "Morocco"
+              }
+            },
+            {
+              "type": "member",
+              "value": {
+                "firstName": "Mohamed",
+                "lastName": "Karim",
+                "affiliationName": "Head of LISTA Laboratory",
+                "country": "Morocco"
+              }
+            },
+            {
+              "type": "member",
+              "value": {
+                "firstName": "Khalid",
+                "lastName": "ZENKOUAR",
+                "affiliationName": "Member of LSIA Laboratory",
+                "country": "Morocco"
+              }
+            },
+            {
+              "type": "member",
+              "value": {
+                "firstName": "M",
+                "lastName": "' Hammed Lahbabi",
+                "affiliationName": "Head of LSSC Laboratory",
+                "country": "Morocco"
+              }
+            },
+            {
+              "type": "member",
+              "value": {
+                "firstName": "Moulay",
+                "lastName": "Lahcen Hasnaoui",
+                "affiliationName": "FSDM",
+                "country": "Morocco"
+              }
+            },
+            {
+              "type": "member",
+              "value": {
+                "firstName": "Ahmed",
+                "lastName": "Zinedine",
+                "affiliationName": "FSDM",
+                "country": "Morocco"
+              }
+            },
+            {
+              "type": "paragraph",
+              "value": "Follow us and help us to talk about WINCOM 2016:"
+            },
+            {
+              "type": "url",
+              "value": "twitter.com/_WINCOM_"
+            },
+            {
+              "type": "url",
+              "value": "web.facebook.com/wincomconf.org?notif_t=page_invite_accepted&_rdr"
+            }
+          ]
+        },
+        {
+          "title": "Sincerely,",
+          "lines": [
+            {
+              "type": "title",
+              "value": "Sincerely,"
+            }
+          ]
+        },
+        {
+          "title": "WINCOM 2016 Chairs.",
+          "lines": [
+            {
+              "type": "title",
+              "value": "WINCOM 2016 Chairs."
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
