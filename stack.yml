@@ -5,6 +5,6 @@ services:
     build:
       dockerfile: dockerfiles/app_api.docker
       context: ./
-    image: app_correct
+    image: app_classifier
     ports:
       - 9090:9090
