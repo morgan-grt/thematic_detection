@@ -11,7 +11,7 @@ from threading import Thread
 
 
 def write_file(list_label_by_mail, filename):
-    f = open(os.getcwd()+constants.BASE_PATH_RESULT
+    f = open(constants.BASE_PATH_RESULT
         +'result-'
         #+str(int(datetime.timestamp(datetime.now())))
         +filename, "w", encoding="utf-8")
@@ -20,7 +20,13 @@ def write_file(list_label_by_mail, filename):
 
     for i in range(0, len(list_label_by_mail)):
         part_json = dict()
-        part_json["result"] = list_label_by_mail[i][1]
+        part_json["result"] = dict()
+        index = 0
+        for k, v in list_label_by_mail[i][1].items():
+            part_json["result"][index] = dict()
+            part_json["result"][index]["name"] = k
+            part_json["result"][index]["count"] = v
+            index += 1
         part_json["mail"] = list_label_by_mail[i][0]
         all_json[i] = part_json
 
@@ -107,22 +113,28 @@ def main():
     user_max_cpu = None
     try:
         user_max_cpu = int(arguments['user_max_cpu'])
+        if user_max_cpu < 0:
+            user_max_cpu = os.cpu_count()
     except KeyError:
         print('Missing max cpu')
         user_max_cpu = os.cpu_count()
 
     max_cpu = min(os.cpu_count(), user_max_cpu);
+    print(user_max_cpu, '  ', max_cpu)
 
 
     # resize list_mail if max_size
     user_max_size = None#
     try:
         user_max_size = int(arguments['user_max_size'])
+        if user_max_size < 0:
+            user_max_size = len(list_mail_en)
     except KeyError:
         print('Missing max size')
         user_max_size = len(list_mail_en)
 
     max_size = min(len(list_mail_en), user_max_size)
+    print(user_max_size, '  ', max_size)
     list_mail_en = list_mail_en[:max_size]
 
     # separate mails equal part for multiprocess

@@ -1,14 +1,8 @@
 import json
-import os
 import constants
-dir_path = os.path.dirname(os.path.realpath(__file__))
-
-
-BASE_PATH = '/api'
-
 
 def read_file(filename):
-    f = open(os.getcwd()+constants.BASE_PATH_UPLOAD+filename, "r")
+    f = open(constants.BASE_PATH_UPLOAD+filename, "r")
 
     # returns JSON object as
     # a dictionary

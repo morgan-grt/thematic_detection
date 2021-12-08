@@ -23,13 +23,24 @@
                     <h2>Thematic Detection</h2><br/>
                     <div id="status-div">
                         <p>Upload a json file for process</p>
-                        <form action="fileupload" method="post" enctype="multipart/form-data">
-                            <label for="input-form" id="input-file" class="label-file"><span>Select a file...</span></label>
-                            <input id="input-form" type="file" name="filetoupload">
+                        <form class="form" action="fileupload" method="post" enctype="multipart/form-data">
+                            <div class="file-upload-wrapper">
+                                <label for="input-form" id="input-form-label" class="label-file"><span>Select a file...</span></label>
+                                <input class="file-upload-field" id="input-form" type="file" name="filetoupload" required />
+                            </div><!--
                             <input class="number-input" type="number" name="filetoupload">
-                            <input class="number-input" type="number" value="-1" name="user_max_cpu">
-                            <input class="number-input" type="number" value="-1" name="user_max_size">
-                            <button type="submit" id="run-button"><span>Send 🚀</span></button>
+                            -->
+                            <div class="form__group__input">
+                                <div class="form__group field">
+                                    <input type="number" class="form__field" placeholder="Max cpu" name="user_max_cpu" value="-1"/>
+                                    <label for="name" class="form__label">Number max of cpu used</label>
+                                </div>
+                                <div class="form__group field">
+                                    <input type="number" class="form__field" placeholder="Max size" name="user_max_size" value="-1"/>
+                                    <label for="name" class="form__label">Number max of email analysed</label>
+                                </div>
+                            </div>
+                            <button type="submit" class="submit-button"><span>Send 🚀</span></button>
                         </form>
                         <span id="upload-result"></span>
                     </div>
@@ -42,7 +53,7 @@
             <p>Just a work in progress...</p>
             <img src="/img/hero-graphic.png">
         </footer>
-        
+        <script src="/js/file-name.js"></script>
    </body>
 
 </html>

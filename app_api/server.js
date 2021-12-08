@@ -35,9 +35,13 @@ app.get('/', (req, res) => {
 
 const api_work = (req, res) => {
     let filename = req.file.filename;
+    console.log(req.body);
+
     let arguments = {
-        "filename":filename};
-    console.log(res);
+        "filename":filename,
+        "user_max_cpu":req.body.user_max_cpu,
+        "user_max_size":req.body.user_max_size
+    };
     console.log(JSON.stringify(arguments));
     const { spawn } = require('child_process');
     const pyProg = spawn('python3', ['./api/python/classifier.py', JSON.stringify(arguments)]);
