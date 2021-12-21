@@ -31,8 +31,3 @@ $('#input-form-label').on('drop', function(e){
         console.log($("#input-form"));
     }
 });
-
-
-
-$("[name='user_max_cpu'").val(-1);
-$("[name='user_max_size'").val(-1);

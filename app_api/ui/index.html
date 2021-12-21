@@ -23,21 +23,34 @@
                     <h2>Thematic Detection</h2><br/>
                     <div id="status-div">
                         <p>Upload a json file for process</p>
-                        <form class="form" action="fileupload" method="post" enctype="multipart/form-data">
+                        <form class="form" action="upload" method="post" enctype="multipart/form-data">
                             <div class="file-upload-wrapper">
                                 <label for="input-form" id="input-form-label" class="label-file"><span>Select a file...</span></label>
-                                <input class="file-upload-field" id="input-form" type="file" name="filetoupload" required />
+                                <input class="file-upload-field" id="input-form" type="file" name="userfile" required/>
                             </div><!--
                             <input class="number-input" type="number" name="filetoupload">
                             -->
                             <div class="form__group__input">
                                 <div class="form__group field">
-                                    <input type="number" class="form__field" placeholder="Max cpu" name="user_max_cpu" value="-1"/>
-                                    <label for="name" class="form__label">Number max of cpu used</label>
+                                    <input type="hidden" name="user_max_cpu" value="-1"/>
+                                    <input type="number" class="form__field" name="user_max_cpu"/>
+                                    <label for="user_max_cpu" class="form__label">Number max of cpu used</label>
                                 </div>
                                 <div class="form__group field">
-                                    <input type="number" class="form__field" placeholder="Max size" name="user_max_size" value="-1"/>
-                                    <label for="name" class="form__label">Number max of email analysed</label>
+                                    <input type="hidden" name="user_max_size" value="-1"/>
+                                    <input type="number" class="form__field" name="user_max_size"/>
+                                    <label for="user_max_size" class="form__label">Number max of email analysed</label>
+                                </div>
+                                <div class="custom-toggle">
+                                    <input type="hidden" name="user_pretty" value="false"/>
+                                    <input type="checkbox" id="user-pretty-toggle" name="user_pretty" value="true" checked/>
+                                    <label for="user-pretty-toggle">
+                                        <div class="switch">
+                                            <div class="dot"></div>
+                                        </div><!--
+                                        --><span>Get a pretty format</span>
+                                    </label>
+                                    <span>You don't want a pretty format</span>
                                 </div>
                             </div>
                             <button type="submit" class="submit-button"><span>Send 🚀</span></button>

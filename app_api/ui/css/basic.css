@@ -272,3 +272,78 @@ input[type=number] {
   animation: linear transform 2s;
   transform: translateY(-3px);
 }
+
+.custom-toggle {
+  position: relative;
+  transition: transform 0.2s;
+  transform: scale(var(--scale, 1)) translateZ(0);
+	margin: 15px 10px 15px 10px;
+	text-align: center;
+}
+.custom-toggle:active {
+  --scale: .96;
+}
+.custom-toggle input {
+  display: none;
+}
+.custom-toggle input + label {
+  padding: 8px 0 8px 0px;
+  min-width: 208px;
+  display: block;
+  cursor: pointer;
+  position: relative;
+}
+.custom-toggle input + label .switch {
+  position: relative;
+  display: inline-block;
+  z-index: 1;
+  vertical-align: top;
+  height: 22px;
+  width: 50px;
+  border-radius: 11px;
+  background: #d7d7d7;
+}
+.custom-toggle input + label .switch .dot {
+  background: rgba(43, 43, 43, 1);
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  left: -1px;
+  top: -1px;
+  transform: translateX(var(--offset, 0));
+  transition: transform 0.4s;
+}
+.custom-toggle input:checked + label .dot {
+  background-color: rgba(242,200,0,1);
+}
+.custom-toggle input + label span {
+  line-height: 22px;
+  font-size: 16px;
+  color: rgba(161,169,175,1);
+  font-weight: 500;
+  display: inline-block;
+  vertical-align: top;
+  z-index: 1;
+  position: relative;
+  margin-left: 12px;
+  transition: color 0.4s;
+}
+.custom-toggle input + label + span {
+  text-align: center;
+  display: block;
+  opacity: 0;
+  font-size: 12px;
+  font-weight: 500;
+  color: rgba(161,169,175,1);
+  transform: translateY(0px);
+  transition: opacity 0.4s, transform 0.4s;
+}
+.custom-toggle input:not(:checked) + label + span {
+  opacity: 1;
+  transform: translateY(4px);
+}
+.custom-toggle input:checked + label {
+  --offset: 28px;
+  --gradient: 1;
+}
