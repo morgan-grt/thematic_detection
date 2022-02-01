@@ -38,6 +38,44 @@ def write_file(list_label_by_mail, filename_json, user_pretty):
     return json_filename
 
 
+def manager(max_cpu, list_mail, pref_labels):
+    # separate mails equal part for multiprocess
+    pref_labels_for_process = np.array_split(pref_labels, max_cpu)
+
+    labels = Manager().list()
+
+    processes = []
+
+    for i in range(0, max_cpu):
+        process = Process(
+            target=classifier.search, 
+            args=(i, list_mail, pref_labels_for_process[i], labels))
+        processes.append(process)
+
+    # Start the processes     
+    for p in processes:
+        p.start()
+    # Ensure all of the processes have finished
+    for p in processes:
+        p.join()
+    # End processes
+    for p in processes:
+        p.close()
+
+    # reconstruction of the list with labels
+    list_label_by_mail_tmp = [[] for i in range(len(list_mail))]
+    list_label_by_mail = list()
+    for key, value in labels:
+        list_label_by_mail_tmp[key].append(value)
+
+    print(list_label_by_mail_tmp)
+
+    for i in range(0, len(list_label_by_mail_tmp)):
+        list_label_by_mail.append((list_mail[i], collections.Counter(list_label_by_mail_tmp[i])))
+
+    return list_label_by_mail
+
+
 def main():
     arguments = json.loads(sys.argv[1])
     print(arguments)
@@ -69,8 +107,8 @@ def main():
 
 
     # get mails and skos labels
-    list_cles, list_mail_fr, list_mail_en = rjson.read_file(filename_json)
-    pref_labels_en, pref_labels_fr = rxml.read_skos()
+    list_cles, list_mail = rjson.read_file(filename_json)
+    pref_labels = rxml.get_labels()
     list_label_by_mail = list()
 
     '''
@@ -108,51 +146,20 @@ def main():
     try:
         user_max_size = int(arguments['user_max_size'])
         if user_max_size < 0:
-            user_max_size = len(list_mail_en)
+            user_max_size = len(list_mail)
     except KeyError:
         print('Missing max size')
         sys.stdout.flush()
-        user_max_size = len(list_mail_en)
+        user_max_size = len(list_mail)
 
-    max_size = min(len(list_mail_en), user_max_size)
-    list_mail_en = list_mail_en[:max_size]
+    max_size = min(len(list_mail), user_max_size)
+    list_mail = list_mail[:max_size]
 
-    # separate mails equal part for multiprocess
-    pref_labels_en_for_process = np.array_split(pref_labels_en, max_cpu)
-
-    labels = Manager().list()
-
-    processes = []
+    print("lab:", len(pref_labels), " | mail:",len(list_mail))
 
     tbegin = time.time()
 
-    for i in range(0, max_cpu):
-        process = Process(
-            target=classifier.search, 
-            args=(i, list_mail_en, pref_labels_en_for_process[i], labels))
-        processes.append(process)
-
-    # Start the processes     
-    for p in processes:
-        p.start()
-    # Ensure all of the processes have finished
-    for p in processes:
-        p.join()
-    # End processes
-    for p in processes:
-        p.close()
-
-
-    # reconstruction of the list with labels
-    list_label_by_mail_tmp = [[] for i in range(len(list_mail_en))]
-    list_label_by_mail = list()
-    for key, value in labels:
-        list_label_by_mail_tmp[key].append(value)
-
-    print(list_label_by_mail_tmp)
-
-    for i in range(0, len(list_label_by_mail_tmp)):
-        list_label_by_mail.append((list_mail_en[i], collections.Counter(list_label_by_mail_tmp[i])))
+    list_label_by_mail = manager(max_cpu, list_mail, pref_labels)
 
     json_filename = write_file(list_label_by_mail, filename_json, user_pretty)
 

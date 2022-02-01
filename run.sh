@@ -11,7 +11,7 @@ CONTAINER_NAME="thematic_detection_app-api_1";
 IMAGE_NAME="app_classifier";
 NETWORK_NAME="thematic_detection_default";
 
-SKOS_FILE="translation/skos.xml";
+SKOS_FILE="translation/en-skos.xml";
 INITIAL_LANG="en";
 FINAL_LANG="fr";
 

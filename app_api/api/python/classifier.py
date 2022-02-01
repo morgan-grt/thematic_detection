@@ -52,22 +52,20 @@ def search_in(label, item):
     return label in [words.strip(punctuation) for words in item.split()]
 
 
-def search(id, list_mail, pref_labels_en, labels):
+def search(id, list_mail, pref_labels, labels):
     index = 0
-    for mail in list_mail:
-
-        
-        if id == 0 and index % 5 == 0:
+    for lang_mail, mail in list_mail:
+        if id == 0::# and index % 5 == 0:
             print("id:"+str(id) + " - mail | " + str(index + 1) + "/" + str(len(list_mail)))
             sys.stdout.flush()
 
         index_bis = 0
-        for label in pref_labels_en:
+        for lang_label, label in pref_labels:
             index_bis += 1
-            '''if index_bis % max((len(pref_labels_en) // 1), 1) == 0:
-                print("id:"+str(id) + " - label | " + str(index_bis) + "/" + str(len(pref_labels_en)))
-                sys.stdout.flush()'''
-            if ( search_in_naif(label.lower(), mail['body'].lower()) 
+            if index_bis % max((len(pref_labels) // 1), 1) == 0:
+                print("id:"+str(id) + " - label | " + str(index_bis) + "/" + str(len(pref_labels)))
+                sys.stdout.flush()
+            if lang_mail == lang_label and ( search_in_naif(label.lower(), mail['body'].lower()) 
               or search_in_naif(label.lower(), mail['subject'].lower()) ):
                 labels.append((index, label))
         index += 1
