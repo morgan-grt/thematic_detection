@@ -11,6 +11,10 @@ CONTAINER_NAME="thematic_detection_app-api_1";
 IMAGE_NAME="app_classifier";
 NETWORK_NAME="thematic_detection_default";
 
+SKOS_FILE="translation/skos.xml";
+INITIAL_LANG="en";
+FINAL_LANG="fr";
+
 printHelp() {
 	cat << EOF
 	
@@ -38,12 +42,21 @@ Select a parameter in the list below:
 			[--max-size, default=$USER_MAX_SIZE]
 			[--pretty, default=$USER_PRETTY]
 
+	-t|--translate : translate a skos file to another language
+		use :
+			-t --parameter value ...
+		parameters :
+			[-s|--skos-file, the name of the skos file, default=$SKOS_FILE]
+			[--i-l|--initial-lang, language to translate from, default=$INITIAL_LANG]
+			[--f-l|--final-lang, language to translate to, default=$FINAL_LANG]
+
 	-h : for help
 	
 Some examples to launch : 
 	- ./run.sh -i
-	- ./run.sh -c -f cfp/block-low.json --output-file result/result.json --port 9090
-	- ./run.sh -c -f cfp/block-low.json --max-cpu 4 --pretty true
+	- ./run.sh -c -f $FILE --output-file $OUTPUT_FILE --port $PORT
+	- ./run.sh -c -f $FILE --max-cpu 4 --pretty $USER_PRETTY
+	- ./run.sh -t -s $SKOS_FILE --i-l $INITIAL_LANG --f-l $FINAL_LANG
 
 Have a great time !
 EOF
@@ -75,6 +88,11 @@ while [[ $# -gt 0 ]]; do
 			echo -e "Action set to init docker";
 	      	shift;
 			break
+	      	;;
+	    -t|--translate)
+			ACTION='t'
+			echo -e "Action set to translate skos file";
+	      	shift;
 	      	;;
 	    -r|--remove-docker)
 			ACTION='r';
@@ -145,6 +163,26 @@ while [[ $# -gt 0 ]]; do
 			shift
 			;;
 
+		# parameter for translation
+		-s|--skos-file)
+			SKOS_FILE=$2;
+			echo -e "Parameter skos_file set to $2";
+			shift;
+			shift
+			;;
+		--i-l|--initial-lang)
+			INITIAL_LANG=$2;
+			echo -e "Parameter initial_lang set to $2";
+			shift;
+			shift
+			;;
+		--f-l|--final-lang)
+			FINAL_LANG=$2;
+			echo -e "Parameter final_lang set to $2";
+			shift;
+			shift
+			;;
+
 		# unknown option
 	    *)
 	      	POSITIONAL+=("$1"); # save it in an array for later
@@ -193,6 +231,10 @@ case $ACTION in
 			--form "user_max_size=$USER_MAX_SIZE" \
 			--form "user_pretty=$USER_PRETTY" \
 			> $OUTPUT_FILE
+		;;
+	t)
+		echo -e "Executing python translation script ...\n";
+		python3 translation/translation.py $SKOS_FILE $INITIAL_LANG $FINAL_LANG
 		;;
 	*)
     	echo -e "Not recognized action: $ACTION, pass..."

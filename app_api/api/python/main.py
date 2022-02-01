@@ -1,25 +1,13 @@
 import sys, time, os
 import constants
+import collections
 import xml_reader as rxml
 import json_reader as rjson
 import classifier
 import json
 import numpy as np
-from os.path import basename
-from zipfile import ZipFile
-from datetime import datetime
 from multiprocessing import Process, Manager
 from threading import Thread
-
-
-def create_archive(filename, list_file):
-    zip_filename = constants.BASE_PATH_RESULT + 'archive-' + filename + '.zip'
-    zip_object = ZipFile(zip_filename, 'w')
-    # Add multiple files to the zip
-    for file in list_file:
-        zip_object.write(file, basename(file))
-    # close the Zip File
-    zip_object.close()
 
 
 def write_file(list_label_by_mail, filename_json, user_pretty):
@@ -51,7 +39,6 @@ def write_file(list_label_by_mail, filename_json, user_pretty):
 
 
 def main():
-    sys.stdout.flush()
     arguments = json.loads(sys.argv[1])
     print(arguments)
     sys.stdout.flush()
@@ -131,9 +118,10 @@ def main():
     list_mail_en = list_mail_en[:max_size]
 
     # separate mails equal part for multiprocess
-    list_mail_for_process = np.array_split(list_mail_en, max_cpu)
+    pref_labels_en_for_process = np.array_split(pref_labels_en, max_cpu)
 
-    list_label_by_mail = Manager().list()
+    labels = Manager().list()
+
     processes = []
 
     tbegin = time.time()
@@ -141,16 +129,30 @@ def main():
     for i in range(0, max_cpu):
         process = Process(
             target=classifier.search, 
-            args=(i, list_mail_for_process[i], pref_labels_en, list_label_by_mail))
+            args=(i, list_mail_en, pref_labels_en_for_process[i], labels))
         processes.append(process)
 
     # Start the processes     
     for p in processes:
         p.start()
-
     # Ensure all of the processes have finished
     for p in processes:
         p.join()
+    # End processes
+    for p in processes:
+        p.close()
+
+
+    # reconstruction of the list with labels
+    list_label_by_mail_tmp = [[] for i in range(len(list_mail_en))]
+    list_label_by_mail = list()
+    for key, value in labels:
+        list_label_by_mail_tmp[key].append(value)
+
+    print(list_label_by_mail_tmp)
+
+    for i in range(0, len(list_label_by_mail_tmp)):
+        list_label_by_mail.append((list_mail_en[i], collections.Counter(list_label_by_mail_tmp[i])))
 
     json_filename = write_file(list_label_by_mail, filename_json, user_pretty)
 
@@ -165,4 +167,5 @@ def main():
     return
 
 
-main()
+if __name__ == '__main__':
+    main()

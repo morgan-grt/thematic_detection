@@ -5,7 +5,6 @@ def read_skos():
 
     tree = ET.parse(constants.BASE_PATH_XML+'skos.xml')
 
-    label = ET.Element('prefLabel')
     root = tree.getroot()
 
     pref_labels_fr = []
