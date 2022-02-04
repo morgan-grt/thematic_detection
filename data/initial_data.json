@@ -1,0 +1,41 @@
+[
+	{
+        "_id": {
+          "$oid": "616f04bd7aa7db5412d76841"
+        },
+        "time": "1634660076",
+        "body": "<br />=======================================================================<br /><br />[Apologies if you receives multiple copies of this CFP] <br />*************************************************************************************** <br /><br />Fuzzy Sets & Systems (FSS) <br />(http://www.journals.elsevier.com/fuzzy-sets-and-systems/)<br />   Call for Papers for a Special Issue on Fuzzy Approaches for Handling <br />Big Data <br />********************************************************************************<br /><br /><br />Guest Editors:<br />Prof. Sadok BEN YAHIA, Faculty of Sciences of Tunis, Tunisia<br />Prof. Anne LAURENT, University of Montpellier, France<br />Prof. Gabriella PASI, University of Milano, Italy<br /><br /><br />Scope and Topics:<br /><br />Big data is often referred to as being related to the paradigms of the <br />4V (Volume, Variety, Velocity, Veracity). Huge data sets require ad hoc <br />computational approaches to be managed and analyzed. Besides the <br />efficiency issue related to their dimensions, there is the important and <br />complex issue of mining useful information from data.<br /><br />Several are the scientific challenges associated with big data, ranging <br />from data capture, storage, sharing, modeling, analysis, and <br />visualization. Among the complex aspects to be addressed there is the <br />integration across heterogeneous, interdependent complex data resources <br />for real-time analytics and decision making.<br /><br />This special issue aims to publish selected research articles presenting <br />fuzzy logic based techniques in the emerging field of Big Data. More <br />specifically, it seeks for contributions standing at the cross-road of <br />theory and applications of fuzzy techniques in Big Data, including:<br /><br />* Scalability and performance of fuzzy algorithms, data structures;<br />* Novel fuzzy techniques to manage big data;<br />* Applications of fuzzy techniques to large datasets gathered in <br />business intelligence, finance, healthcare, bioinformatics, smart sensor <br />networks, cyber security, etc;<br />* Collaborative approaches where human and machine expertise are used in <br />a complementary manner.<br /><br />Submission procedure<br /><br />Please submit your article using the online manuscript submission <br />service at The submission website for this journal is located at: <br />http://ees.elsevier.com/fss/default.asp. It is important that <br />prospective authors select “SI:Fuzzy approaches 4BigData” as far as they <br />reach the “Article Type” step in the submission process.<br /><br /><br />Important Dates<br /><br />Submission of manuscripts: June 30th, 2016<br />Review notification to authors: September 15th , 2016<br />Submission of revised papers: October 30th, 2016<br />Notification of final review results: December 15th, 2016<br /><br /><br /><br /><br /><br /><br /><br />",
+        "subject": "4th CFP: : Special Issue on Fuzzy Approaches for Handling Big Data (Fuzzy Sets & Systems (FSS))",
+        "date": "Sat, 28 May 2016 16:47:54 +0200",
+        "fromName": "Sadok Ben Yahia",
+        "fromMail": "sadok.benyahia@fst.rnu.tn",
+        "language": "en",
+        "isCFP": "1",
+    	"labels": [
+		  {
+	        "name": "Visualization",
+	        "count": 1
+	      },
+	      {
+	        "name": "Logic",
+	        "count": 1
+	      },
+	      {
+	        "name": "Performance",
+	        "count": 1
+	      },
+	      {
+	        "name": "Business intelligence",
+	        "count": 2
+	      },
+	      {
+	        "name": "Ranking",
+	        "count": 1
+	      },
+	      {
+	        "name": "Bioinformatics",
+	        "count": 1
+	      }
+	    ]
+	}
+]

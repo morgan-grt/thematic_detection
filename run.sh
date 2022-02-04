@@ -19,11 +19,15 @@ printHelp() {
 	cat << EOF
 	
 Select a parameter in the list below:
-	-i|--init-docker : init the docker container
+	-i|--init-docker : init the docker containers
 		use :
 			-i
 
-	-r|--remove-docker : remove default named container/image/network
+	-d|--down-docker : down the docker containers
+		use :
+			-d
+
+	-r|--remove-docker : remove the app default named container/image/network
 		use : 
 			-r --parameter value ...
 		parameters (not required) :
@@ -86,6 +90,12 @@ while [[ $# -gt 0 ]]; do
 	    -i|--init-docker)
 			ACTION='i';
 			echo -e "Action set to init docker";
+	      	shift;
+			break
+	      	;;
+	    -d|--down-docker)
+			ACTION='d';
+			echo -e "Action set to down docker";
 	      	shift;
 			break
 	      	;;
@@ -200,6 +210,24 @@ case $ACTION in
 	i)
 		echo -e "Preparing the docker container ...\n";
 		sudo docker-compose -f stack.yml up -d
+
+		# on récupère le nom du dossier pour le nom du container
+		dirname=`basename "$PWD"`;
+		basename="_mongo_1"; # A MODIFIER SI PROBLEME, par exemple plusieurs containers mongo donc numéro > 1
+		container="${dirname,,}${basename}"; # ,, pour lowercase
+
+		#if (sudo docker exec -i $container sh -c 'mongo /import/check.js --authenticationDatabase admin -u root -p example | grep yes')
+		#then 
+		#   	echo "Databases already contains data";
+		#else
+		#	echo "Database will receive data"
+		#	echo "$container"
+		#   	sudo docker exec -i $container sh -c 'mongoimport --db mail_db --jsonArray --collection mail --type json --file /import/initial_data.json --authenticationDatabase admin -u root -p example';
+		#fi
+		;;
+	d)
+		echo -e "Stopping the docker container ...\n";
+		sudo docker-compose -f stack.yml down
 		;;
 	r)
 		echo -e "Stopping docker named $CONTAINER_NAME ...\n";

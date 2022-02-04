@@ -68,8 +68,6 @@ def manager(max_cpu, list_mail, pref_labels):
     for key, value in labels:
         list_label_by_mail_tmp[key].append(value)
 
-    print(list_label_by_mail_tmp)
-
     for i in range(0, len(list_label_by_mail_tmp)):
         list_label_by_mail.append((list_mail[i], collections.Counter(list_label_by_mail_tmp[i])))
 
@@ -154,8 +152,6 @@ def main():
 
     max_size = min(len(list_mail), user_max_size)
     list_mail = list_mail[:max_size]
-
-    print("lab:", len(pref_labels), " | mail:",len(list_mail))
 
     tbegin = time.time()
 

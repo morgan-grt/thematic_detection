@@ -1,0 +1,52 @@
+.div-label
+{
+	background-color: #202226;
+	padding:  10px 10px;
+	margin: 10px;
+	max-width: max-content;
+	display: inline-block;
+	color: rgba(255, 255, 255, 1);
+	box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.div-label:hover
+{
+	cursor: pointer;
+	animation: linear transform 2s;
+  	transform: translateY(-3px);
+}
+
+.choosed
+{
+	background-color: rgba(242,200,0,1);
+	color: black;
+}
+
+.div-mail
+{
+	background-color: #202226;
+	padding:  10px 10px;
+	margin: 10px;
+	max-width: max-content;
+	display: inline-block;
+	color: rgba(255, 255, 255, 1);
+	box-sizing: border-box;
+	box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.div-mail:hover
+{
+	cursor: pointer;
+	animation: linear transform 2s;
+  	transform: translateY(-3px);
+}
+
+.mail-body
+{
+	overflow-y: scroll;
+}
+
+.reduced .mail-body
+{
+	max-height: 200px;
+}

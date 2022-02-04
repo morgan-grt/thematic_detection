@@ -1,7 +1,18 @@
 const express = require('express');
+const fetch = require("node-fetch");
 const app = express();
 const path = require("path");
 const multer = require('multer');
+const fs = require('fs');
+const MongoClient = require('mongodb').MongoClient;
+
+// Connection URL
+const url = 'mongodb://root:example@mongodb:27017';
+
+// Database Name
+const dbName = 'mail_db';
+const dbCollection = 'mail';
+
 const port = 9090;
 const hostname = "0.0.0.0";
 const boolean_true_value = ['1', 'True', 'true', 'on'];
@@ -54,6 +65,27 @@ app.get('/', (req, res) => {
     res.render('index');
 });
 
+app.get('/search', (req, res) => {
+    res.render('search');
+});
+
+app.get('/graphql', (req, res) => {
+    fetch(`http://graphqlnetwork:4000`, {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          "X-Shopify-Access-Token": "<access-token>"
+        },
+        body: JSON.stringify(req.query)
+      })
+        .then(result => {
+          return result.json();
+        })
+        .then(data => {
+          res.send(data);
+    });
+});
+
 const get_value_type = (value, name) => {
     if (default_value[name].type == "int"){
         if (!isNaN(value))
@@ -97,12 +129,64 @@ const api_work = (req, res) => {
     const { spawn } = require('child_process');
     const pyProg = spawn('python3', ['./api/python/main.py', JSON.stringify(arguments)]);
     pyProg.stdout.on('data', function(data) {
-        console.log(data.toString());
+        console.log(`stdout: ${data.toString()}`);
 
         if (data.toString().includes('canDownload')) {
             req.app.set('filename', filename);
-            res.redirect(`/download`);
+
+            const pyProgBis = spawn('python3', ['./api/python/aqua_poney.py', ('result-'+filename)]);
+            let bufferArray= []
+
+            pyProgBis.stdout.on('data', function(dataBis) {
+                if (dataBis.toString().includes('canInsert'))
+                {
+                    let rawdata = fs.readFileSync(`./api/search/search-result-` + filename);
+                    let myDatas = JSON.parse(rawdata);
+
+                    console.log('DOING MY JOB');
+
+                    MongoClient.connect(url, function(err, db) {
+                        if (err) throw err;
+                        let dbo = db.db(dbName);
+                        for (index in myDatas)
+                        {
+                            dbo.collection("mail").insertOne(myDatas[index], function(err, res) {
+                            //dbo.collection(dbCollection).updateOne({"_id":myDatas[index]._id}, {$set:myDatas[index]}, upsert=true, function(err, res){
+                                if (err) console.log("Already in database, skip...");
+                                //console.log("1 document inserted");
+                                //db.close();
+                            });
+                        }
+                        
+                    });
+
+                    
+                    console.log("DONE");
+                }
+            });
+            pyProgBis.stderr.on('data', (data) => {
+                console.log(`stderr: ${data}`);
+            });
+
+            pyProgBis.on('close', (code) => {
+                console.log(`child process exited with code ${code}`);
+                //console.log(dataBuffer.toString())
+
+
+            });
+
+
+            const file = `./api/result/result-` + req.app.get('filename');
+            res.download(file); // Set disposition and send it.
+            //res.redirect(`/download`);
         }
+    });
+    pyProg.stderr.on('data', (data) => {
+        console.log(`stderr: ${data}`);
+    });
+
+    pyProg.on('close', (code) => {
+        console.log(`child process exited with code ${code}`);
     });
 }
 
